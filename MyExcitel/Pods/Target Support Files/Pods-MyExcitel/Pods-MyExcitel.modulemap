@@ -1,0 +1,6 @@
+framework module Pods_MyExcitel {
+  umbrella header "Pods-MyExcitel-umbrella.h"
+
+  export *
+  module * { export * }
+}
