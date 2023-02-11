@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 class ConnectionManager {
-    private var baseURL = ""
+    private var baseURL = "https://excitel-countries.azurewebsites.net/"
     
     // MARK: - Read methods
     

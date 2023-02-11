@@ -10,11 +10,10 @@ import UIKit
 
 final class CountriesCoordinator: Coordinator {
     
-    private(set) var childCoordinators: [Coordinator] = []
-    private let navigationController: UINavigationController
+   private var window: UIWindow
     
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
+    init(window: UIWindow) {
+        self.window = window
     }
     
     func start() {
@@ -22,6 +21,6 @@ final class CountriesCoordinator: Coordinator {
         let viewModel = CountriesViewModel()
         viewModel.coordinator = self
         viewController.viewModel = viewModel
-        navigationController.setViewControllers([viewController], animated: false)
+        window.rootViewController = viewController
     }
 }

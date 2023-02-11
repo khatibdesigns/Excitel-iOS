@@ -12,9 +12,13 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var coordinator: MainCoordinator?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.window = UIWindow()
+        self.setupMainView()
         
         return true
     }
@@ -62,6 +66,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
+    private func setupMainView() {
+        coordinator = MainCoordinator(window: window!)
+        coordinator?.start()
+        window?.makeKeyAndVisible()
+    }
 }
-

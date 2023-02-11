@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 protocol Coordinator: AnyObject {
-    var childCoordinators: [Coordinator] { get }
     func start()
     func childDidFinish(_ childCoordinator: Coordinator)
 }
@@ -18,27 +17,20 @@ extension Coordinator {
     func childDidFinish(_ childCoordinator: Coordinator) {}
 }
 
-final class MBMainCoordinator: Coordinator {
+class MainCoordinator: Coordinator {
     
-    func start() {
-        
-    }
-    
-    private(set) var childCoordinators: [Coordinator] = []
-    private let window: UIWindow
-    var appDelegate: AppDelegate
-    
-    init(window: UIWindow, appDelegate: AppDelegate) {
+    var window: UIWindow
+    var coordinators = [String:Coordinator]()
+
+    init(window: UIWindow) {
         self.window = window
-        self.appDelegate = appDelegate
     }
-    
-//    func start() {
-//        let coordinator = TabCoordinator(presenter: appDelegate.window!)
-//
-//        coordinator.parentCoordinator = self
-//        childCoordinators.append(coordinator)
-//        coordinator.start()
-//        coordinator.show(with: .home)
-//    }
+
+    func start() {
+        showCountriesViewController()
+    }
+    func showCountriesViewController() {
+        let countriesCoordinator = CountriesCoordinator(window: window)
+        countriesCoordinator.start()
+    }
 }
