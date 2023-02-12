@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let svgCoder = SDImageSVGKCoder.shared
         SDImageCodersManager.shared.addCoder(svgCoder)
+        SDImageCache.shared.config.shouldCacheImagesInMemory = false
         
         self.window = UIWindow()
         self.setupMainView()

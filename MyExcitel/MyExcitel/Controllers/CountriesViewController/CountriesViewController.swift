@@ -7,6 +7,7 @@
 
 import UIKit
 import SDWebImage
+import SVGKit
 
 class CountriesViewController: UIViewController, Storyboarded {
     
@@ -65,7 +66,7 @@ extension CountriesViewController: UITableViewDelegate, UITableViewDataSource {
         guard let data = data else { return UITableViewCell() }
         let cell = tableView.dequeueReusableCell(withIdentifier: self.viewModel.cell_id, for: indexPath) as! CountriesTableViewCell
         
-        DispatchQueue(label: "com.khd.MyExcitel").async {
+        DispatchQueue.global().async {
             cell.configureCell(data: data[indexPath.row])
         }
         
@@ -82,4 +83,18 @@ extension CountriesViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 44
     }
+}
+func resizeImage(image: UIImage, targetSize: CGSize) -> UIImage {
+    let scale = min(targetSize.width / image.size.width,
+                    targetSize.height / image.size.height)
+    
+    let size = CGSize(width: image.size.width * scale,
+                      height: image.size.height * scale)
+    
+    UIGraphicsBeginImageContextWithOptions(size, false, 0)
+    image.draw(in: CGRect(origin: .zero, size: size))
+    let scaledImage = UIGraphicsGetImageFromCurrentImageContext()
+    UIGraphicsEndImageContext()
+    
+    return scaledImage!
 }
