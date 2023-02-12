@@ -19,6 +19,9 @@
 		1255978B2997F92500B86A1F /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255978A2997F92500B86A1F /* CountriesViewModel.swift */; };
 		1255978E2997F99200B86A1F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255978D2997F99200B86A1F /* MainCoordinator.swift */; };
 		125597912997FA9600B86A1F /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125597902997FA9600B86A1F /* Storyboarded.swift */; };
+		1261CEA12999981D0038B076 /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261CE9F2999981D0038B076 /* CountriesTableViewCell.swift */; };
+		1261CEA22999981D0038B076 /* CountriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1261CEA02999981D0038B076 /* CountriesTableViewCell.xib */; };
+		1261CEA8299999820038B076 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261CEA7299999820038B076 /* UIViewController.swift */; };
 		FA3D663D02BE351CA50EB333 /* Pods_MyExcitel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7026874517AB64F014140255 /* Pods_MyExcitel.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		1255978A2997F92500B86A1F /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
 		1255978D2997F99200B86A1F /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		125597902997FA9600B86A1F /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		1261CE9F2999981D0038B076 /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
+		1261CEA02999981D0038B076 /* CountriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesTableViewCell.xib; sourceTree = "<group>"; };
+		1261CEA7299999820038B076 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		7026874517AB64F014140255 /* Pods_MyExcitel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyExcitel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5152E363ACEAA1EDDC3463D /* Pods-MyExcitel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyExcitel.release.xcconfig"; path = "Target Support Files/Pods-MyExcitel/Pods-MyExcitel.release.xcconfig"; sourceTree = "<group>"; };
 		B90DD3AFBC1797CADF889C20 /* Pods-MyExcitel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyExcitel.debug.xcconfig"; path = "Target Support Files/Pods-MyExcitel/Pods-MyExcitel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +104,7 @@
 		124DBC9929954CB3004E2B15 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1261CEA6299999760038B076 /* UI */,
 				1255978F2997FA8B00B86A1F /* Global */,
 			);
 			path = Extensions;
@@ -131,6 +138,7 @@
 		124DBC9D29954CDE004E2B15 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1261CE9D299998070038B076 /* TableView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +178,31 @@
 				125597902997FA9600B86A1F /* Storyboarded.swift */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		1261CE9D299998070038B076 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1261CE9E299998120038B076 /* CountriesTableViewCell */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		1261CE9E299998120038B076 /* CountriesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1261CE9F2999981D0038B076 /* CountriesTableViewCell.swift */,
+				1261CEA02999981D0038B076 /* CountriesTableViewCell.xib */,
+			);
+			path = CountriesTableViewCell;
+			sourceTree = "<group>";
+		};
+		1261CEA6299999760038B076 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1261CEA7299999820038B076 /* UIViewController.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		CF5A4FAAAB2B368108B985F8 /* Pods */ = {
@@ -251,6 +284,7 @@
 			files = (
 				124DBC9129954C42004E2B15 /* LaunchScreen.storyboard in Resources */,
 				124DBC8E29954C42004E2B15 /* Assets.xcassets in Resources */,
+				1261CEA22999981D0038B076 /* CountriesTableViewCell.xib in Resources */,
 				124DBC8929954C41004E2B15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +341,9 @@
 				125597892997F90100B86A1F /* CountriesCoordinator.swift in Sources */,
 				1255978E2997F99200B86A1F /* MainCoordinator.swift in Sources */,
 				125597852997F14A00B86A1F /* ConnectionManager.swift in Sources */,
+				1261CEA8299999820038B076 /* UIViewController.swift in Sources */,
 				1255978B2997F92500B86A1F /* CountriesViewModel.swift in Sources */,
+				1261CEA12999981D0038B076 /* CountriesTableViewCell.swift in Sources */,
 				124DBC8229954C41004E2B15 /* AppDelegate.swift in Sources */,
 				125597912997FA9600B86A1F /* Storyboarded.swift in Sources */,
 				125597832997F07000B86A1F /* Countries.swift in Sources */,

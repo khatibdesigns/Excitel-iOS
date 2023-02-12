@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class CountriesViewController: UIViewController, Storyboarded {
     
@@ -26,6 +27,11 @@ class CountriesViewController: UIViewController, Storyboarded {
         super.viewWillAppear(animated)
         
         self.viewModel.ready()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        SDImageCache.shared.clearMemory()
     }
     
     private func setupViewModel() {
@@ -64,6 +70,13 @@ extension CountriesViewController: UITableViewDelegate, UITableViewDataSource {
         }
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if let cell = cell as? CountriesTableViewCell {
+            SDImageCache.shared.clearMemory()
+            cell.iconImageView.sd_cancelCurrentImageLoad()
+        }
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
