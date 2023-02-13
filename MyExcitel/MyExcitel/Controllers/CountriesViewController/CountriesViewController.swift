@@ -103,7 +103,12 @@ extension CountriesViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.viewModel.didSelect(at: indexPath)
+        guard let data = data else { return }
+        if self.isSearch {
+            self.viewModel.didSelect(self.filteredData[indexPath.row])
+            return
+        }
+        self.viewModel.didSelect(data[indexPath.row])
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

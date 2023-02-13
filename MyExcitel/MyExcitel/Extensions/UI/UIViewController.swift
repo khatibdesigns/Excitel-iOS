@@ -31,4 +31,11 @@ extension UIViewController {
             }
         }
     }
+    
+    public func addView(view: UIView, in holder: UIView) {
+        holder.subviews.forEach({ $0.removeFromSuperview() })
+        view.frame = CGRect(x: 0, y: 0, width: holder.frame.width, height: holder.frame.height)
+        view.clipsToBounds = true
+        holder.addSubview(view)
+    }
 }

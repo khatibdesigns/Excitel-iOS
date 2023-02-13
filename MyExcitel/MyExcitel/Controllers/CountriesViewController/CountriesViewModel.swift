@@ -44,9 +44,9 @@ final class CountriesViewModel {
         isRefreshing?(false)
     }
     
-    func didSelect(at indexPath: IndexPath) {
+    func didSelect(_ country: Countries) {
         if countries.isEmpty { return }
-        didSelect?(countries[indexPath.item])
-        coordinator?.showDetails(countries[indexPath.item])
+        didSelect?(country)
+        coordinator?.showDetails(country)
     }
 }
