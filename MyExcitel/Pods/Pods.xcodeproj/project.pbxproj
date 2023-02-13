@@ -43,6 +43,7 @@
 		0FFA0C960F26666918569059FB8E92BC /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D196DE94C5F1554C9BAEB045436E561 /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10E9E4249C8C22A571EBFECF3C0676CC /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D4AB17302B19FE3B6D5A5E1CB568C /* UIImageView+WebCache.m */; };
 		113F48208612FB812F7CD7D28DB51CF1 /* Element.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8970B021741C59BBE4D4497AF46856 /* Element.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		115206D03564ECB94FEB93C1A198F32A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD27193E467E4294EE1BAE3A1413F18 /* Foundation.framework */; };
 		1186C6D40EDB5382FCC7F3AD3ECB448A /* SVGHelperUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C315E486B0D69BC2D3044D647223FB /* SVGHelperUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11D3AC002772B1331C54769620DA041D /* ProcessingInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC626DFED483946CC695F3A4F99C406 /* ProcessingInstruction.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		11E79385CD0DA86166E63D21E7E078E9 /* SDImageIOAnimatedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F08898A21C98A547D09972C4FD4848A /* SDImageIOAnimatedCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -198,13 +199,14 @@
 		64CDB33E49BDBE16653C88756E26B8CB /* SDImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 53230375DB69F3CBAEAC9E695CC6E000 /* SDImageCoder.m */; };
 		6502F7D6EF9E361F467A647CC58E98FB /* CDATASection.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AAACEF06A66C9C8B350D1892CC91A0 /* CDATASection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66281221A5B9EEC253DB65A9654CA8A4 /* SDImageSVGKCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F2868AC12180B05AEF5D39A677CC8B19 /* SDImageSVGKCoder.m */; };
-		66884601E3029EB8C392AB95202C18E4 /* Pods-MyExcitel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 822F549896A9F2180C6F7BABFFF92DC6 /* Pods-MyExcitel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66884601E3029EB8C392AB95202C18E4 /* Pods-MyExcitel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0166FD53ABF47A49BE64A0B08970EA5B /* Pods-MyExcitel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67B0CAAD8E88B9A2357C41E73EA2EB48 /* SDWebImageCacheKeyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CF5572FA3E4DF7F6BBC144479D70FD /* SDWebImageCacheKeyFilter.m */; };
 		67B3DCBA30FDEDA18E0D4E3B2C16C911 /* SDImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6A8EAEDB3E3AE83E22F7C7FFDCBEC5 /* SDImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67BD2989893854DB1A1F00508336D22B /* AppleSucksDOMImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 349604405825B86E5FF0394103A1AF1C /* AppleSucksDOMImplementation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		684A04B98EE0DD17F62273626D35DC68 /* SVGGroupElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 458B3A7B49781BD43A1C1292791C5B90 /* SVGGroupElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6059C068E543018C31299A33D91122 /* ParameterEncoding.swift */; };
 		69A0F96CC5D1BA1FC6D946C650DC9338 /* SVGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 8579E6F506CE10C755C5A2836B43D456 /* SVGTransform.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6A7F6A13B3B288BB1D861EE923CC29FA /* Pods-MyExcitel-MyExcitelTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EA549EDB73DFF23EAB33422840D4E6 /* Pods-MyExcitel-MyExcitelTests-dummy.m */; };
 		6B0C52E8966658064BD40DFF11DF6C65 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9370C9835329430DEA75023FE75E8C /* DDFileLogger.m */; };
 		6B272C9CDDBB624563E79C43515EC783 /* SVGKPointsAndPathsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B620572CCA0EB5FB3993FA73960A6D25 /* SVGKPointsAndPathsParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6B8ABCD111EF27F65AA1E1BFAB2780F5 /* DocumentCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = 214575B344FDAB9A7588D9F7158E1BD6 /* DocumentCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -447,6 +449,7 @@
 		E556832E0C191FCFABB9E97C87D243EF /* SDmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C2CE48CD77307FE0ED2F62C9B613E4 /* SDmetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E5C6051933677CDF392BF6356271A92E /* SDImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 403F5F92AEA37662DA94B0031CBC1FAF /* SDImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E754272FEDB38BD997EC454EE7F66BF7 /* CGPathAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1BCE0A73B8B841A4D937DD273B6423 /* CGPathAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E7C7EAE75CCB859B5FB58706FB848AF6 /* Pods-MyExcitel-MyExcitelTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B3B597FC2F671FF12944B25A97C272 /* Pods-MyExcitel-MyExcitelTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7FA1E1CD066D0335A95376C73E3F8ED /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AF660831E7AB42ABCA9620E143A8B6 /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8CDB76741357391224B2629153557AF /* StyleSheetList+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 888ACE3EF51766C1B0BF38DE76754B21 /* StyleSheetList+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8CE28499C17965A931605D4F47AAEBF /* NSImage+Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 267E3CF0FDEB60594E3ECAC72369E3CA /* NSImage+Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -466,7 +469,7 @@
 		F0E28CEF30861F3589A4A662CEA76D80 /* SDImageGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = E01385796181F2D916BA59DA4E20FBF2 /* SDImageGraphics.m */; };
 		F161112B04B9AC7D276D9F588BA6E313 /* SDDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE2BEC86C74166874A85FB4016AE7CA /* SDDeviceHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7D8FFE1B5CE9F7A6304A9EE8EAC0D /* Alamofire.swift */; };
-		F34AE50F4B3AF5F1C36C4DC7938CA3D8 /* Pods-MyExcitel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0295168CC24C86A2CB5A241F12287F93 /* Pods-MyExcitel-dummy.m */; };
+		F34AE50F4B3AF5F1C36C4DC7938CA3D8 /* Pods-MyExcitel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A670378AB678316BB87E36E831BAFE7 /* Pods-MyExcitel-dummy.m */; };
 		F463DEB020D5C466D4613947AE4BE16F /* SDAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C082C5495D6E3779711A66A8BD8259F /* SDAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4811CFAC05932CE436CC2C32BAD91E6 /* UIColor+SDHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = C13338119E00FF6309BA15CD5A295F45 /* UIColor+SDHexString.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F497CD01EF6568475FD363A248D78A4B /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6036925B9BE69E42CC021099DED2B8 /* UIImage+ForceDecode.m */; };
@@ -540,6 +543,34 @@
 			remoteGlobalIDString = DBCBBA18205552E1609C953411E890C2;
 			remoteInfo = SDWebImageSVGKitPlugin;
 		};
+		C4E8F4F671AE53426A0F262F7DEECC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
+			remoteInfo = SDWebImage;
+		};
+		CA28E94CE91A1403B6B30FB66C093D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		CD24CB23453236233678C8CA485AD30B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B537A1FD6BC67DF7FE8C2B34E5CE6F19;
+			remoteInfo = SVGKit;
+		};
+		D8536FB312B69191CD46BDA339F63854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
+			remoteInfo = CocoaLumberjack;
+		};
 		E316558CF08EC2387C06AA825BD1877E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -547,16 +578,23 @@
 			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
 			remoteInfo = SDWebImage;
 		};
+		EEFE85759F6679B1B30C303AC00F7E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCBBA18205552E1609C953411E890C2;
+			remoteInfo = SDWebImageSVGKitPlugin;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008B32AB9507C826C5837C9326EEA3DF /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		0166FD53ABF47A49BE64A0B08970EA5B /* Pods-MyExcitel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyExcitel-umbrella.h"; sourceTree = "<group>"; };
 		01892A5A37BE6187A4BF2A8D40933BD0 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Sources/CocoaLumberjack/DDOSLogger.m; sourceTree = "<group>"; };
 		01C738A5C100151E9D3791D38882AAA6 /* DDLoggerNames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLoggerNames.m; path = Sources/CocoaLumberjack/DDLoggerNames.m; sourceTree = "<group>"; };
 		023ADA2DF4369F5D3D633CAD91156554 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
 		02785108C5532F68504755C190944418 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		027E0DB78EF24996AFEBCD1E92FFB673 /* Document.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Document.h; path = "Source/DOM classes/Core DOM/Document.h"; sourceTree = "<group>"; };
-		0295168CC24C86A2CB5A241F12287F93 /* Pods-MyExcitel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyExcitel-dummy.m"; sourceTree = "<group>"; };
 		02C7AF4DD287BDEC2DCB91D05EC001AC /* SVGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGUtils.h; path = Source/Utils/SVGUtils.h; sourceTree = "<group>"; };
 		034FF649BF0922D115D192BC1B580404 /* SVGKExporterUIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKExporterUIImage.h; path = Source/Exporters/SVGKExporterUIImage.h; sourceTree = "<group>"; };
 		03A96D23AB80A657A55605A64A36B5A2 /* CALayerWithChildHitTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CALayerWithChildHitTest.h; path = "Source/QuartzCore additions/CALayerWithChildHitTest.h"; sourceTree = "<group>"; };
@@ -573,6 +611,7 @@
 		085708117FAFF1FE902C3D04408BE207 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		090DF050B3B852EC8717521E5D8FA201 /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/Core/SDImageFrame.m; sourceTree = "<group>"; };
 		0993637A487B353F0F49418949C9B61A /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		09AC30B80A1E629ABE5DDE46ACB3BA78 /* Pods-MyExcitel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyExcitel.debug.xcconfig"; sourceTree = "<group>"; };
 		0A7F7E8311CE3FD9728BBC15B6205FBD /* SVGFitToViewBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGFitToViewBox.h; path = "Source/DOM classes/SVG-DOM/SVGFitToViewBox.h"; sourceTree = "<group>"; };
 		0A86B1FA0A78B7EF3EADFE360688A706 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/Core/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		0A9B2EE71843EAB35A0894C32066067F /* SVGKSourceLocalFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKSourceLocalFile.h; path = Source/Sources/SVGKSourceLocalFile.h; sourceTree = "<group>"; };
@@ -620,6 +659,7 @@
 		1B1B69A6B381B3DAF2B48BCBC2887EC5 /* SVGCircleElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGCircleElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGCircleElement.h"; sourceTree = "<group>"; };
 		1B6A8EAEDB3E3AE83E22F7C7FFDCBEC5 /* SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoader.h; path = SDWebImage/Core/SDImageLoader.h; sourceTree = "<group>"; };
 		1BCC4019E04A8156DB5C950B42A53B83 /* SVGUnitTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGUnitTypes.h; path = "Source/DOM classes/SVG-DOM/SVGUnitTypes.h"; sourceTree = "<group>"; };
+		1C24BA5A17E78BF423120B1785ABBF8C /* Pods-MyExcitel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyExcitel-Info.plist"; sourceTree = "<group>"; };
 		1CBCF4B82D0BA9DE412E2466DA2270FA /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		1D0013E4C9BE74A068969AF34ECE1F38 /* SVGTransformable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTransformable.h; path = "Source/DOM classes/SVG-DOM/SVGTransformable.h"; sourceTree = "<group>"; };
 		1D36DE43704F6CD053B6479976A19E00 /* NamedNodeMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NamedNodeMap.m; path = "Source/DOM classes/Core DOM/NamedNodeMap.m"; sourceTree = "<group>"; };
@@ -634,7 +674,6 @@
 		237BD97F3951330938A7C02B809FDF7E /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		238FFCE126EDF914613F5220A7731618 /* SDSVGKImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDSVGKImage.m; path = SDWebImageSVGKitPlugin/Classes/SDSVGKImage.m; sourceTree = "<group>"; };
 		2424AEB37DF63264BB59309406E10D19 /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
-		24D374959554A51794FA89879DB8FE4B /* Pods-MyExcitel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyExcitel-Info.plist"; sourceTree = "<group>"; };
 		259DDC37B74F5E985CCCE1E2756D073A /* SVGKInlineResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKInlineResource.h; path = Source/Utils/SVGKInlineResource.h; sourceTree = "<group>"; };
 		267E3CF0FDEB60594E3ECAC72369E3CA /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/Core/NSImage+Compatibility.h"; sourceTree = "<group>"; };
 		26B9871D018CD383A7021FB0B297A15E /* SVGLineElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGLineElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGLineElement.m"; sourceTree = "<group>"; };
@@ -651,6 +690,7 @@
 		29AAACEF06A66C9C8B350D1892CC91A0 /* CDATASection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDATASection.h; path = "Source/DOM classes/Core DOM/CDATASection.h"; sourceTree = "<group>"; };
 		29D0B3805F54080714273681563AA4B6 /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/Core/SDImageLoadersManager.h; sourceTree = "<group>"; };
 		29D92E16FFF2CB4089E64BEBB8AFE758 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		2A670378AB678316BB87E36E831BAFE7 /* Pods-MyExcitel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyExcitel-dummy.m"; sourceTree = "<group>"; };
 		2B25CF70738480E0B75D7CE47BFF98B4 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/Core/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		2B3F3A07505716A96CFD432C565B02DF /* CSSRuleList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSRuleList.m; path = "Source/DOM classes/Core DOM/CSSRuleList.m"; sourceTree = "<group>"; };
 		2B87B364A984CC7EB81B0F60674E8446 /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
@@ -658,7 +698,9 @@
 		2BAF5D54D3312082A95DF8987B5E7446 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
 		2C24DB6E2003FDD67C139626ECF4DC52 /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
 		2D6F40E72ECD609906028128DAFC08C1 /* SDMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDMemoryCache.m; path = SDWebImage/Core/SDMemoryCache.m; sourceTree = "<group>"; };
+		2DCEFF168B9F7060B9A6F19220CF55FF /* Pods-MyExcitel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyExcitel-frameworks.sh"; sourceTree = "<group>"; };
 		2DE8F3A2797570B74942D4D42CF829E2 /* SVGKExporterNSImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKExporterNSImage.h; path = Source/Exporters/SVGKExporterNSImage.h; sourceTree = "<group>"; };
+		2E22487A886808E13F22B93EBDBA79BB /* Pods-MyExcitel-MyExcitelTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyExcitel-MyExcitelTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2EDF31D914849D38AF517DC82466DAAB /* SVGHelperUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGHelperUtilities.m; path = "Source/DOM classes/SVG-DOM/SVGHelperUtilities.m"; sourceTree = "<group>"; };
 		2FB45BEE7BC0103DC2354945E284AA97 /* SVGKParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParser.m; path = Source/Parsers/SVGKParser.m; sourceTree = "<group>"; };
 		316281BF0C361023828451214DFB8660 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog.h; sourceTree = "<group>"; };
@@ -686,6 +728,7 @@
 		38B37AB0D39C68F9E8300DE77AAF12AB /* SDImageAssetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAssetManager.h; path = SDWebImage/Private/SDImageAssetManager.h; sourceTree = "<group>"; };
 		3988DE5D193BC5832002F3E21FF4B198 /* StyleSheetList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StyleSheetList.m; path = "Source/DOM classes/Core DOM/StyleSheetList.m"; sourceTree = "<group>"; };
 		39A3588898961E223F815207A3E1FD00 /* SVGKParseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParseResult.h; path = Source/Parsers/SVGKParseResult.h; sourceTree = "<group>"; };
+		39B3B597FC2F671FF12944B25A97C272 /* Pods-MyExcitel-MyExcitelTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyExcitel-MyExcitelTests-umbrella.h"; sourceTree = "<group>"; };
 		3A026CBA65B5275A1C51929416729241 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/Core/NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		3A8C52136F125F94E1B0D1E5EDD6767B /* DocumentFragment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DocumentFragment.h; path = "Source/DOM classes/Core DOM/DocumentFragment.h"; sourceTree = "<group>"; };
 		3B3B18A92FA138D213A4E17568B2FF47 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
@@ -721,7 +764,6 @@
 		48BECAF4BF574E90B5B6E46885A72B29 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/Core/SDWebImageManager.h; sourceTree = "<group>"; };
 		49153D8BFB144B07DC9E2FCC29CE4D87 /* SVGKSourceURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKSourceURL.h; path = Source/Sources/SVGKSourceURL.h; sourceTree = "<group>"; };
 		49C2CE48CD77307FE0ED2F62C9B613E4 /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
-		49F937890EB08BBA755523F5CC2C705A /* Pods-MyExcitel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyExcitel-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4AD27193E467E4294EE1BAE3A1413F18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4B07FEDC30C20FA11276ADC574654576 /* SVGRectElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGRectElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGRectElement.h"; sourceTree = "<group>"; };
 		4C004C8961092C08B51B7561228A9C20 /* SVGKParserExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserExtension.h; path = Source/Parsers/SVGKParserExtension.h; sourceTree = "<group>"; };
@@ -758,7 +800,7 @@
 		5C6F4246E1066E6819C20789B27BFEA3 /* SVGKLayeredImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKLayeredImageView.m; path = Source/ImageViews/SVGKLayeredImageView.m; sourceTree = "<group>"; };
 		5CC8CF83805289B3E42E7B5E7B507262 /* SDWebImageDownloaderRequestModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderRequestModifier.h; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.h; sourceTree = "<group>"; };
 		5D3B9174EC1DF01CD6ED4B893D7F475D /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D910AD5DA8F6AF396D793C941F4F43C /* SVGKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVGKit-prefix.pch"; sourceTree = "<group>"; };
 		5D929F863C0D8BFC0A07904F42AE128A /* SVGKSourceNSData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKSourceNSData.h; path = Source/Sources/SVGKSourceNSData.h; sourceTree = "<group>"; };
 		5DC3DA3076580FBE210244A301AB0006 /* SVGGradientStop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGGradientStop.h; path = "Source/DOM classes/Unported or Partial DOM/SVGGradientStop.h"; sourceTree = "<group>"; };
@@ -795,6 +837,7 @@
 		716B40EAB497787981D9729480DE234A /* SVGRect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGRect.m; path = "Source/DOM classes/SVG-DOM/SVGRect.m"; sourceTree = "<group>"; };
 		71E223E6348A88E6EF975059FF1E498E /* SVGTextPositioningElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTextPositioningElement.h; path = "Source/DOM classes/SVG-DOM/SVGTextPositioningElement.h"; sourceTree = "<group>"; };
 		73771E51D8E1B3AD0498F270C5BC9051 /* UIImage+ExtendedCacheData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ExtendedCacheData.h"; path = "SDWebImage/Core/UIImage+ExtendedCacheData.h"; sourceTree = "<group>"; };
+		73DBA532BE73F95DBE5E72D11A395495 /* Pods-MyExcitel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyExcitel.modulemap"; sourceTree = "<group>"; };
 		75542D8DDF005A4642F17B8354F867B2 /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
 		757190A2244CB09FCF2ED856DE4A74F7 /* CLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/CLIColor.h; sourceTree = "<group>"; };
 		75D1F9A7B1C335CFB2089DBB43864F10 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = "Sources/CocoaLumberjack/Supporting Files/DDLegacyMacros.h"; sourceTree = "<group>"; };
@@ -817,7 +860,6 @@
 		7F1B30229D4765EA5730AFC6C4FB78FE /* NSCharacterSet+SVGKExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCharacterSet+SVGKExtensions.h"; path = "Source/Foundation additions/NSCharacterSet+SVGKExtensions.h"; sourceTree = "<group>"; };
 		7F6D5CE0DE0B9DE8CB5DBB95AF180213 /* SVGKLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKLayer.h; path = "Source/QuartzCore additions/SVGKLayer.h"; sourceTree = "<group>"; };
 		80D59F62BDF018767FB5D08351B6BF5E /* SVGStyleCatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGStyleCatcher.h; path = "Source/DOM classes/Unported or Partial DOM/SVGStyleCatcher.h"; sourceTree = "<group>"; };
-		822F549896A9F2180C6F7BABFFF92DC6 /* Pods-MyExcitel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyExcitel-umbrella.h"; sourceTree = "<group>"; };
 		82CC0CD9EB77BDF255BD763AAA798411 /* SDWebImageSVGKitPlugin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImageSVGKitPlugin-Info.plist"; sourceTree = "<group>"; };
 		82D068E669A5C54052A1A3F8EFA25322 /* SVGTextLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGTextLayer.m; path = "Source/QuartzCore additions/SVGTextLayer.m"; sourceTree = "<group>"; };
 		8386F338B534F3F9B56EA33B92794F65 /* CSSValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSValue.h; path = "Source/DOM classes/Core DOM/CSSValue.h"; sourceTree = "<group>"; };
@@ -833,7 +875,7 @@
 		888ACE3EF51766C1B0BF38DE76754B21 /* StyleSheetList+Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "StyleSheetList+Mutable.h"; path = "Source/DOM classes/Core DOM/StyleSheetList+Mutable.h"; sourceTree = "<group>"; };
 		88BAACAF30B79AEEB870AB1150832050 /* DDContextFilterLogFormatter+Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDContextFilterLogFormatter+Deprecated.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter+Deprecated.h"; sourceTree = "<group>"; };
 		892A1E9E7A1A563831CF6CEAEA1336FD /* DocumentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DocumentType.h; path = "Source/DOM classes/Core DOM/DocumentType.h"; sourceTree = "<group>"; };
-		893CBCF68BDA9B2F3FC1405B6A2B9FA8 /* SDWebImageSVGKitPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageSVGKitPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		893CBCF68BDA9B2F3FC1405B6A2B9FA8 /* SDWebImageSVGKitPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImageSVGKitPlugin; path = SDWebImageSVGKitPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8948625208B91A4CBCEA2EF19AB71CD5 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Sources/CocoaLumberjack/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		89A939752BFD9BE67DF3FC091AAC0B56 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		89D7599FEA23D20507E9FD228455A5F6 /* SVGDescriptionElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGDescriptionElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGDescriptionElement.m"; sourceTree = "<group>"; };
@@ -843,7 +885,6 @@
 		8B92BA1C0596447E3B538A1D06FDF57B /* Attr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Attr.m; path = "Source/DOM classes/Core DOM/Attr.m"; sourceTree = "<group>"; };
 		8BAA67B5F93EA47D921FC5BB7139AF05 /* SVGKImage+CGContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SVGKImage+CGContext.m"; path = "Source/Exporters/SVGKImage+CGContext.m"; sourceTree = "<group>"; };
 		8C9856FEF0464105BF39FF9A875393BE /* Text.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Text.m; path = "Source/DOM classes/Core DOM/Text.m"; sourceTree = "<group>"; };
-		8C98CFFE8E141087C0703977102CCD94 /* Pods-MyExcitel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyExcitel.modulemap"; sourceTree = "<group>"; };
 		8D196DE94C5F1554C9BAEB045436E561 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
 		8DAEBA27081AA602BCD923B5AB09F75B /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/Core/SDImageCache.m; sourceTree = "<group>"; };
 		8DB6CEFB94743F692FD4E034A3321431 /* SDImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOCoder.m; path = SDWebImage/Core/SDImageIOCoder.m; sourceTree = "<group>"; };
@@ -857,7 +898,7 @@
 		90DFEC71D3B6B597E01FF0D8D00F948C /* SVGPreserveAspectRatio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGPreserveAspectRatio.m; path = "Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.m"; sourceTree = "<group>"; };
 		911632F6AC3966D945CD4EF63287A13E /* SVGKParserPatternsAndGradients.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserPatternsAndGradients.h; path = "Source/Parsers/Parser Extensions/SVGKParserPatternsAndGradients.h"; sourceTree = "<group>"; };
 		92CA6F6F34A6B5B9BF4D50BA7CC460EE /* Pods-MyExcitel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyExcitel"; path = Pods_MyExcitel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94FBF37DDBE82AAA32C91274B028E235 /* Pods-MyExcitel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyExcitel.release.xcconfig"; sourceTree = "<group>"; };
+		946E12CEB092D06AD6CA27CDF3174B62 /* Pods-MyExcitel-MyExcitelTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyExcitel-MyExcitelTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		957DC2971DAEB5571D7010D1330CC1FA /* CSSRuleList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSRuleList.h; path = "Source/DOM classes/Core DOM/CSSRuleList.h"; sourceTree = "<group>"; };
 		962B845BDB81F56275D0C668409E00BD /* SVGDescriptionElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGDescriptionElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGDescriptionElement.h"; sourceTree = "<group>"; };
 		96C35B938012751B9C54B6CA72F65377 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
@@ -866,6 +907,7 @@
 		96FFED4676C97175407B81F46EF88B3D /* SVGTextContentElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGTextContentElement.m; path = "Source/DOM classes/SVG-DOM/SVGTextContentElement.m"; sourceTree = "<group>"; };
 		970F3E762683DE0E7EFCB252F972A5CA /* SDGraphicsImageRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDGraphicsImageRenderer.m; path = SDWebImage/Core/SDGraphicsImageRenderer.m; sourceTree = "<group>"; };
 		9759D2B29337571DDA30DCE1D316A005 /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
+		98A389567F1B3E00CA8B53370BE37C0D /* Pods-MyExcitel-MyExcitelTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyExcitel-MyExcitelTests-Info.plist"; sourceTree = "<group>"; };
 		9936782681A79BAF31E482AA66CDFF86 /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
 		9979C24B66D0C9BB740414FACF505AB6 /* SVGKSourceString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKSourceString.m; path = Source/Sources/SVGKSourceString.m; sourceTree = "<group>"; };
 		9994896492D7574032453BC3282A44E0 /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
@@ -876,7 +918,7 @@
 		9BF213E503FBB13B6F9F74B3BB5A3B6D /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDMultiFormatter.h; sourceTree = "<group>"; };
 		9C77452FE0DD76F7CE319179665A131F /* SVGAnimatedPreserveAspectRatio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGAnimatedPreserveAspectRatio.h; path = "Source/DOM classes/SVG-DOM/SVGAnimatedPreserveAspectRatio.h"; sourceTree = "<group>"; };
 		9D412476BF43DD09F7E4222CD1E74BE0 /* ConverterSVGToCALayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConverterSVGToCALayer.h; path = "Source/DOM classes/Unported or Partial DOM/ConverterSVGToCALayer.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE2BEC86C74166874A85FB4016AE7CA /* SDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDeviceHelper.h; path = SDWebImage/Private/SDDeviceHelper.h; sourceTree = "<group>"; };
 		9DF031259D33EBEF7B72802CB44AC40D /* CSSValueList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSValueList.h; path = "Source/DOM classes/Core DOM/CSSValueList.h"; sourceTree = "<group>"; };
 		9E1BCE0A73B8B841A4D937DD273B6423 /* CGPathAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGPathAdditions.m; path = "Source/QuartzCore additions/CGPathAdditions.m"; sourceTree = "<group>"; };
@@ -886,11 +928,11 @@
 		9EC46DB328CA7DE37F5DDAB807B3EA28 /* SVGKSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKSource.h; path = Source/SVGKSource.h; sourceTree = "<group>"; };
 		9F141D1A4AE4F6436357CA42C8C58581 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/Core/NSButton+WebCache.h"; sourceTree = "<group>"; };
 		9F2B35639FED8D294E8CAC0EE823429E /* SDImageSVGKCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageSVGKCoder.h; path = SDWebImageSVGKitPlugin/Classes/SDImageSVGKCoder.h; sourceTree = "<group>"; };
-		A058949311731A867B8BA2F2F6EBD303 /* Pods-MyExcitel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyExcitel-acknowledgements.plist"; sourceTree = "<group>"; };
 		A1450ED3C582CB8553BC0B7E8B259946 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/Core/NSButton+WebCache.m"; sourceTree = "<group>"; };
 		A1B2D1C91B918679CED9F09F1D07EDE4 /* SVGElement_ForParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGElement_ForParser.h; path = "Source/DOM classes/Unported or Partial DOM/SVGElement_ForParser.h"; sourceTree = "<group>"; };
 		A294DE3838ABB6386D6F5D119E0C95A0 /* SVGLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGLength.h; path = "Source/DOM classes/SVG-DOM/SVGLength.h"; sourceTree = "<group>"; };
 		A2A723D8C757D944B0A1ADE5E3AC8475 /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/Core/SDImageCacheDefine.m; sourceTree = "<group>"; };
+		A364A435CD1B102F7BA8A2AB896A359C /* Pods-MyExcitel-MyExcitelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyExcitel-MyExcitelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A58C5ED88AA1367A3543E946C3E0333E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		A5F5B522EF677BD7F86551C8DBC60810 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
 		A68440F934E392DC0E435D587D724871 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Sources/CocoaLumberjack/DDLog.m; sourceTree = "<group>"; };
@@ -899,6 +941,7 @@
 		A72F36DD7A14D19615F973768517B5E2 /* SDImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoderHelper.h; path = SDWebImage/Core/SDImageCoderHelper.h; sourceTree = "<group>"; };
 		A7A55EF900AE34669130FDB7A0A3D549 /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/Core/UIImage+Transform.h"; sourceTree = "<group>"; };
 		A816535D1C2570D4EDE34E1812D239A4 /* SVGPathElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGPathElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGPathElement.m"; sourceTree = "<group>"; };
+		A86340E3B492582D71CCCDBB6D689FC4 /* Pods-MyExcitel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyExcitel-acknowledgements.plist"; sourceTree = "<group>"; };
 		A8FC22F70410A6A161973E7CC64EB65C /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/Core/SDWebImageManager.m; sourceTree = "<group>"; };
 		A9632BA3D902864056EEE57888ADEBDB /* SVGTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTransform.h; path = "Source/DOM classes/SVG-DOM/SVGTransform.h"; sourceTree = "<group>"; };
 		A981EE84E679A0A03AB0737352CC9A83 /* DocumentStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DocumentStyle.h; path = "Source/DOM classes/Core DOM/DocumentStyle.h"; sourceTree = "<group>"; };
@@ -914,13 +957,14 @@
 		AE24A7096AB7817464FED5E8907D8671 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		AF8872E07DB8F0A0B79039ABBF7AB890 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		B03723B15A149458BA81DBCF19C07D98 /* SDFileAttributeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDFileAttributeHelper.h; path = SDWebImage/Private/SDFileAttributeHelper.h; sourceTree = "<group>"; };
-		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B42D613E908B606BC9311DD8285CA0 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		B0EC61D42556AC453D746083B1CCCF9C /* CALayerWithClipRender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CALayerWithClipRender.h; path = "Source/QuartzCore additions/CALayerWithClipRender.h"; sourceTree = "<group>"; };
 		B1A58CE49E5642EDF00408CD3B18E6F7 /* CALayerWithChildHitTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CALayerWithChildHitTest.m; path = "Source/QuartzCore additions/CALayerWithChildHitTest.m"; sourceTree = "<group>"; };
 		B24324948ECA210A0C6ADBD952846879 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		B2B22D4AF40F4FC9E8A051C246B315F1 /* CAShapeLayerWithHitTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAShapeLayerWithHitTest.h; path = "Source/QuartzCore additions/CAShapeLayerWithHitTest.h"; sourceTree = "<group>"; };
 		B2D854D082CB1FEEC8A0191CE80A464D /* SVGAngle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGAngle.m; path = "Source/DOM classes/SVG-DOM/SVGAngle.m"; sourceTree = "<group>"; };
+		B303FA078E063C4F39291E9B444981C5 /* Pods-MyExcitel-MyExcitelTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyExcitel-MyExcitelTests.modulemap"; sourceTree = "<group>"; };
 		B366FF3FD95C388D4B6EF09EE2BFC30A /* NSBezierPath+SDRoundedCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+SDRoundedCorners.h"; path = "SDWebImage/Private/NSBezierPath+SDRoundedCorners.h"; sourceTree = "<group>"; };
 		B382B463616E5FA84F78B597D4D8D9BB /* SVGKImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKImageRep.m; path = "Source/AppKit additions/SVGKImageRep.m"; sourceTree = "<group>"; };
 		B46E39B2D4453571EF861284AF9B7EE9 /* SVGStyleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGStyleElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGStyleElement.m"; sourceTree = "<group>"; };
@@ -931,6 +975,7 @@
 		B7C7EE64C79E2E011FB07C90991C1AF8 /* CGPathAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGPathAdditions.h; path = "Source/QuartzCore additions/CGPathAdditions.h"; sourceTree = "<group>"; };
 		B8C8A24DDA53784B84AAD9AB77B66A3F /* SVGTitleElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTitleElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGTitleElement.h"; sourceTree = "<group>"; };
 		B8C9A2CE1C7B69B2C27B2233DD1BE3B5 /* TinySVGTextAreaElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TinySVGTextAreaElement.h; path = "Source/DOM classes/Unported or Partial DOM/TinySVGTextAreaElement.h"; sourceTree = "<group>"; };
+		B8EA549EDB73DFF23EAB33422840D4E6 /* Pods-MyExcitel-MyExcitelTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyExcitel-MyExcitelTests-dummy.m"; sourceTree = "<group>"; };
 		B93671E1DEAE1670116C51EDD26A170F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		B93C3178734D3F3AA3F57DA6EF6B3788 /* SVGElementInstanceList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGElementInstanceList.m; path = "Source/DOM classes/SVG-DOM/SVGElementInstanceList.m"; sourceTree = "<group>"; };
 		B9C792CFBA14DE4FB5EB0541E0694F81 /* DOMHelperUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOMHelperUtilities.m; path = "Source/DOM classes/Core DOM/DOMHelperUtilities.m"; sourceTree = "<group>"; };
@@ -962,7 +1007,6 @@
 		C6FAD46E1769D889B52C31001C95E306 /* CSSStyleRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSStyleRule.h; path = "Source/DOM classes/Core DOM/CSSStyleRule.h"; sourceTree = "<group>"; };
 		C6FBB2E6627D729BFCF950A40BB896FB /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		C7A91D8BEF2A4D0D5E9F960C359DBD9C /* SDGraphicsImageRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDGraphicsImageRenderer.h; path = SDWebImage/Core/SDGraphicsImageRenderer.h; sourceTree = "<group>"; };
-		C7AF680AD1CDFD20247C621B4DB74949 /* Pods-MyExcitel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyExcitel-frameworks.sh"; sourceTree = "<group>"; };
 		C7E3FA02D31337546A58C0817FF40271 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogger.h; sourceTree = "<group>"; };
 		C85A2CEBC401F5AF1A82B6C31BB7219D /* DDFileLogger+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Internal.h"; path = "Sources/CocoaLumberjack/DDFileLogger+Internal.h"; sourceTree = "<group>"; };
 		C8FA000734FA099D1DE4F745605BE790 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
@@ -970,17 +1014,18 @@
 		CA5DDA9F9E171D6A5C403F62D7CE3C1E /* CocoaLumberjack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.debug.xcconfig; sourceTree = "<group>"; };
 		CA9A8CD31E51A4D9032D49E3453C7875 /* UIImage+Metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Metadata.h"; path = "SDWebImage/Core/UIImage+Metadata.h"; sourceTree = "<group>"; };
 		CB48ADE049849645897F12B9BBE93437 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
-		CC37ADFF07798BF97636262A5C81B12E /* Pods-MyExcitel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyExcitel.debug.xcconfig"; sourceTree = "<group>"; };
 		CC60ABC14A8A0DDA959179BEEBB02538 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		CC6DB5D5C17CFAD9C4126D35247CF4B0 /* SDAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDAnimatedImageView+WebCache.h"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
 		CC9B8F79598632C5B27629048DF68D65 /* SVGEllipseElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGEllipseElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGEllipseElement.m"; sourceTree = "<group>"; };
 		CCBCF52FFBA9CDC6AD6542264E6D589E /* SVGStylable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGStylable.h; path = "Source/DOM classes/SVG-DOM/SVGStylable.h"; sourceTree = "<group>"; };
 		CCC37595381C46704DDCC9C9CB273FE2 /* SVGKParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParser.h; path = Source/Parsers/SVGKParser.h; sourceTree = "<group>"; };
 		CCEE6F6BCB311D702C070ED95A6C3516 /* SVGNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGNumber.h; path = "Source/DOM classes/SVG-DOM/SVGNumber.h"; sourceTree = "<group>"; };
+		CD24A26FBE2058E74B8FE53CC39402F1 /* Pods-MyExcitel-MyExcitelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyExcitel-MyExcitelTests.release.xcconfig"; sourceTree = "<group>"; };
 		CDAB5261F4D3B6A04593615128C86E3F /* SVGTextElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTextElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGTextElement.h"; sourceTree = "<group>"; };
 		CDDF3464CCEA67134E2FB70603E081BA /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
 		CDF1DFD5DE0580B1833BB1D93FBC4339 /* SVGKImage+CGContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SVGKImage+CGContext.h"; path = "Source/Exporters/SVGKImage+CGContext.h"; sourceTree = "<group>"; };
 		CE154CCF681BFF24573FDFBF442E49E4 /* SVGPolygonElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPolygonElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGPolygonElement.h"; sourceTree = "<group>"; };
+		CE824F4808D8A48C48DDE9BE03379789 /* Pods-MyExcitel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyExcitel.release.xcconfig"; sourceTree = "<group>"; };
 		CF0E27814086062CBED6EF30780BAD5F /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/Core/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		CF6036925B9BE69E42CC021099DED2B8 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/Core/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		CF6F60FFB741D46AB4EB667E69BFCC77 /* SDInternalMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDInternalMacros.h; path = SDWebImage/Private/SDInternalMacros.h; sourceTree = "<group>"; };
@@ -1023,6 +1068,7 @@
 		E3D9403201CC487533265F66BE4CF920 /* Node.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Node.m; path = "Source/DOM classes/Core DOM/Node.m"; sourceTree = "<group>"; };
 		E4617FBB187BF908BF8C616E218089CB /* CSSValue_ForSubclasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSValue_ForSubclasses.h; path = "Source/DOM classes/Core DOM/CSSValue_ForSubclasses.h"; sourceTree = "<group>"; };
 		E4FDC4AA11493984F75199B4F8170492 /* SVGKSourceLocalFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKSourceLocalFile.m; path = Source/Sources/SVGKSourceLocalFile.m; sourceTree = "<group>"; };
+		E52653A29B1ECD9B188680694EF7748A /* Pods-MyExcitel-MyExcitelTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyExcitel-MyExcitelTests"; path = Pods_MyExcitel_MyExcitelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E597B4C29745A7E99E17DE112EEA4F25 /* SDImageAWebPCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAWebPCoder.m; path = SDWebImage/Core/SDImageAWebPCoder.m; sourceTree = "<group>"; };
 		E5E2FF8B1F5F2746F541312E724794A6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		E703E591354334BC0AAC48AF2D66167B /* DocumentFragment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DocumentFragment.m; path = "Source/DOM classes/Core DOM/DocumentFragment.m"; sourceTree = "<group>"; };
@@ -1058,16 +1104,26 @@
 		F582DB9C4C069B5947F56EC54EF139A7 /* SVGTitleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGTitleElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGTitleElement.m"; sourceTree = "<group>"; };
 		F71A0AD31BE69C3A1F1799F7A7765E26 /* SDWebImageDownloaderDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderDecryptor.h; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.h; sourceTree = "<group>"; };
 		F7AF60DDD52286991FF2149C9E8B99C1 /* SVGPreserveAspectRatio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPreserveAspectRatio.h; path = "Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.h"; sourceTree = "<group>"; };
-		F8437BE58881E63196CF1F80191B3E2F /* SVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F817399990FCAC8186EAD652566DBE75 /* Pods-MyExcitel-MyExcitelTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyExcitel-MyExcitelTests-frameworks.sh"; sourceTree = "<group>"; };
+		F8437BE58881E63196CF1F80191B3E2F /* SVGKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVGKit; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B317718200AD7E0DB501CBC959D159 /* SVGKImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKImage.m; path = Source/SVGKImage.m; sourceTree = "<group>"; };
 		F96A666426BE49C5F61BB49ABBD2241F /* SDWebImageDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDefine.h; path = SDWebImage/Core/SDWebImageDefine.h; sourceTree = "<group>"; };
 		FCCB36503EF30FD3A49E1E035CFD14AF /* Comment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Comment.m; path = "Source/DOM classes/Core DOM/Comment.m"; sourceTree = "<group>"; };
 		FD4D09EBDC602AA85BCD88A5E47EC0FE /* UIImage+Metadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Metadata.m"; path = "SDWebImage/Core/UIImage+Metadata.m"; sourceTree = "<group>"; };
 		FDCF72CB8472AFC357CA7975EE84FF52 /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/Core/SDWebImageTransition.h; sourceTree = "<group>"; };
 		FDD6B202875F8978B90B39EC69FBDC35 /* SVGKExporterUIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKExporterUIImage.m; path = Source/Exporters/SVGKExporterUIImage.m; sourceTree = "<group>"; };
+		FF696122FAC72BFBA17349E839173447 /* Pods-MyExcitel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyExcitel-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		129BE9F1B8B446B4E43006CD3A0DA830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115206D03564ECB94FEB93C1A198F32A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1123,6 +1179,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01573F7BBB005E7E24902223FC213D2A /* Pods-MyExcitel-MyExcitelTests */ = {
+			isa = PBXGroup;
+			children = (
+				B303FA078E063C4F39291E9B444981C5 /* Pods-MyExcitel-MyExcitelTests.modulemap */,
+				2E22487A886808E13F22B93EBDBA79BB /* Pods-MyExcitel-MyExcitelTests-acknowledgements.markdown */,
+				946E12CEB092D06AD6CA27CDF3174B62 /* Pods-MyExcitel-MyExcitelTests-acknowledgements.plist */,
+				B8EA549EDB73DFF23EAB33422840D4E6 /* Pods-MyExcitel-MyExcitelTests-dummy.m */,
+				F817399990FCAC8186EAD652566DBE75 /* Pods-MyExcitel-MyExcitelTests-frameworks.sh */,
+				98A389567F1B3E00CA8B53370BE37C0D /* Pods-MyExcitel-MyExcitelTests-Info.plist */,
+				39B3B597FC2F671FF12944B25A97C272 /* Pods-MyExcitel-MyExcitelTests-umbrella.h */,
+				A364A435CD1B102F7BA8A2AB896A359C /* Pods-MyExcitel-MyExcitelTests.debug.xcconfig */,
+				CD24A26FBE2058E74B8FE53CC39402F1 /* Pods-MyExcitel-MyExcitelTests.release.xcconfig */,
+			);
+			name = "Pods-MyExcitel-MyExcitelTests";
+			path = "Target Support Files/Pods-MyExcitel-MyExcitelTests";
+			sourceTree = "<group>";
+		};
+		026221A99BA4676CEED43267D50A2D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */,
+				92CA6F6F34A6B5B9BF4D50BA7CC460EE /* Pods-MyExcitel */,
+				E52653A29B1ECD9B188680694EF7748A /* Pods-MyExcitel-MyExcitelTests */,
+				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */,
+				893CBCF68BDA9B2F3FC1405B6A2B9FA8 /* SDWebImageSVGKitPlugin */,
+				F8437BE58881E63196CF1F80191B3E2F /* SVGKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13DABC3AC316DD504265F7D07FD109CB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D1FEA05CD845D12B30761E76FA2F327 /* Pods-MyExcitel */,
+				01573F7BBB005E7E24902223FC213D2A /* Pods-MyExcitel-MyExcitelTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		2ABBEDDDC7305F4EAA63E74E0D941601 /* SVGKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1368,6 +1464,7 @@
 				BC00A27C3EFED27A674A1F142915A622 /* TinySVGTextAreaElement.m */,
 				C599A2CA7ED91082F7C0CAD83BB0F4AC /* Support Files */,
 			);
+			name = SVGKit;
 			path = SVGKit;
 			sourceTree = "<group>";
 		};
@@ -1377,6 +1474,7 @@
 				CA9427B3D5587F03ED8AEDDD03F8D1AA /* Core */,
 				EAF34D389CE78260C21A8EEA47C1F3D2 /* Support Files */,
 			);
+			name = CocoaLumberjack;
 			path = CocoaLumberjack;
 			sourceTree = "<group>";
 		};
@@ -1395,23 +1493,6 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		4130F548FA799E253C64BB37D9914D43 /* Pods-MyExcitel */ = {
-			isa = PBXGroup;
-			children = (
-				8C98CFFE8E141087C0703977102CCD94 /* Pods-MyExcitel.modulemap */,
-				49F937890EB08BBA755523F5CC2C705A /* Pods-MyExcitel-acknowledgements.markdown */,
-				A058949311731A867B8BA2F2F6EBD303 /* Pods-MyExcitel-acknowledgements.plist */,
-				0295168CC24C86A2CB5A241F12287F93 /* Pods-MyExcitel-dummy.m */,
-				C7AF680AD1CDFD20247C621B4DB74949 /* Pods-MyExcitel-frameworks.sh */,
-				24D374959554A51794FA89879DB8FE4B /* Pods-MyExcitel-Info.plist */,
-				822F549896A9F2180C6F7BABFFF92DC6 /* Pods-MyExcitel-umbrella.h */,
-				CC37ADFF07798BF97636262A5C81B12E /* Pods-MyExcitel.debug.xcconfig */,
-				94FBF37DDBE82AAA32C91274B028E235 /* Pods-MyExcitel.release.xcconfig */,
-			);
-			name = "Pods-MyExcitel";
-			path = "Target Support Files/Pods-MyExcitel";
-			sourceTree = "<group>";
-		};
 		4CD4DCB03923D85CC4C00A756F002AF6 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1424,12 +1505,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		638F654B9DD48FF9B9B3D9C5C50CFAD6 /* Targets Support Files */ = {
+		5D1FEA05CD845D12B30761E76FA2F327 /* Pods-MyExcitel */ = {
 			isa = PBXGroup;
 			children = (
-				4130F548FA799E253C64BB37D9914D43 /* Pods-MyExcitel */,
+				73DBA532BE73F95DBE5E72D11A395495 /* Pods-MyExcitel.modulemap */,
+				FF696122FAC72BFBA17349E839173447 /* Pods-MyExcitel-acknowledgements.markdown */,
+				A86340E3B492582D71CCCDBB6D689FC4 /* Pods-MyExcitel-acknowledgements.plist */,
+				2A670378AB678316BB87E36E831BAFE7 /* Pods-MyExcitel-dummy.m */,
+				2DCEFF168B9F7060B9A6F19220CF55FF /* Pods-MyExcitel-frameworks.sh */,
+				1C24BA5A17E78BF423120B1785ABBF8C /* Pods-MyExcitel-Info.plist */,
+				0166FD53ABF47A49BE64A0B08970EA5B /* Pods-MyExcitel-umbrella.h */,
+				09AC30B80A1E629ABE5DDE46ACB3BA78 /* Pods-MyExcitel.debug.xcconfig */,
+				CE824F4808D8A48C48DDE9BE03379789 /* Pods-MyExcitel.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-MyExcitel";
+			path = "Target Support Files/Pods-MyExcitel";
 			sourceTree = "<group>";
 		};
 		93CBCD77EF0D76468CAAB88DA2E09C63 /* Support Files */ = {
@@ -1664,8 +1754,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				EEDC7CF97979AF9678AE2401D38BBE49 /* Pods */,
-				FD9E8BE353BC253D9CA13B3D37B2B2CF /* Products */,
-				638F654B9DD48FF9B9B3D9C5C50CFAD6 /* Targets Support Files */,
+				026221A99BA4676CEED43267D50A2D04 /* Products */,
+				13DABC3AC316DD504265F7D07FD109CB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1710,6 +1800,7 @@
 				99C3C936301275FF2728ABCB7C7CEA91 /* Validation.swift */,
 				3E7CC90BE4EA23E8AA1C0E1E636D69BB /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1754,6 +1845,7 @@
 				F3BEDB41E88AF4DA4AF0E95214F7018A /* SVGKImageView+WebCache.m */,
 				93CBCD77EF0D76468CAAB88DA2E09C63 /* Support Files */,
 			);
+			name = SDWebImageSVGKitPlugin;
 			path = SDWebImageSVGKitPlugin;
 			sourceTree = "<group>";
 		};
@@ -1778,25 +1870,21 @@
 				9E0725EFF8757E22D5F46BD3943E7A83 /* Core */,
 				EFE7BFC8E9DD6EE6377B21A5E2692F57 /* Support Files */,
 			);
+			name = SDWebImage;
 			path = SDWebImage;
-			sourceTree = "<group>";
-		};
-		FD9E8BE353BC253D9CA13B3D37B2B2CF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */,
-				92CA6F6F34A6B5B9BF4D50BA7CC460EE /* Pods-MyExcitel */,
-				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
-				893CBCF68BDA9B2F3FC1405B6A2B9FA8 /* SDWebImageSVGKitPlugin.framework */,
-				F8437BE58881E63196CF1F80191B3E2F /* SVGKit.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		075CBBC9C9031D74D4B0FD9537DB44CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C7EAE75CCB859B5FB58706FB848AF6 /* Pods-MyExcitel-MyExcitelTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		104737A7F2F8176AF07A40A019B4DC37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2094,7 +2182,7 @@
 			);
 			name = SDWebImage;
 			productName = SDWebImage;
-			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */;
+			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */;
 			productType = "com.apple.product-type.framework";
 		};
 		74A7F3A26E5E3B6694C0730A86130A1D /* Pods-MyExcitel */ = {
@@ -2136,7 +2224,7 @@
 			);
 			name = SVGKit;
 			productName = SVGKit;
-			productReference = F8437BE58881E63196CF1F80191B3E2F /* SVGKit.framework */;
+			productReference = F8437BE58881E63196CF1F80191B3E2F /* SVGKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		DBCBBA18205552E1609C953411E890C2 /* SDWebImageSVGKitPlugin */ = {
@@ -2156,7 +2244,7 @@
 			);
 			name = SDWebImageSVGKitPlugin;
 			productName = SDWebImageSVGKitPlugin;
-			productReference = 893CBCF68BDA9B2F3FC1405B6A2B9FA8 /* SDWebImageSVGKitPlugin.framework */;
+			productReference = 893CBCF68BDA9B2F3FC1405B6A2B9FA8 /* SDWebImageSVGKitPlugin */;
 			productType = "com.apple.product-type.framework";
 		};
 		E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */ = {
@@ -2192,7 +2280,30 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB59EDD1CF8E5E97303580ED1C9C5103 /* Pods-MyExcitel-MyExcitelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EDFF12924727D8B3C6F1743503F0FE /* Build configuration list for PBXNativeTarget "Pods-MyExcitel-MyExcitelTests" */;
+			buildPhases = (
+				075CBBC9C9031D74D4B0FD9537DB44CC /* Headers */,
+				11739C068CFE031BD87447F2A8FFE481 /* Sources */,
+				129BE9F1B8B446B4E43006CD3A0DA830 /* Frameworks */,
+				B6B47BE31FD5BE290D88005F74117419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E35F4C94E6FCE26A5B13ABCCA6B4633 /* PBXTargetDependency */,
+				60CB0343F37A95B934E212603490C149 /* PBXTargetDependency */,
+				A56A420AF7F368908BAE42BE874AB7CE /* PBXTargetDependency */,
+				4C64B1C12F6C06272D8049C2669BB0E8 /* PBXTargetDependency */,
+				03119F8E89240926C866209B83340283 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyExcitel-MyExcitelTests";
+			productName = Pods_MyExcitel_MyExcitelTests;
+			productReference = E52653A29B1ECD9B188680694EF7748A /* Pods-MyExcitel-MyExcitelTests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -2213,13 +2324,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FD9E8BE353BC253D9CA13B3D37B2B2CF /* Products */;
+			productRefGroup = 026221A99BA4676CEED43267D50A2D04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */,
 				74A7F3A26E5E3B6694C0730A86130A1D /* Pods-MyExcitel */,
+				EB59EDD1CF8E5E97303580ED1C9C5103 /* Pods-MyExcitel-MyExcitelTests */,
 				3847153A6E5EEFB86565BA840768F429 /* SDWebImage */,
 				DBCBBA18205552E1609C953411E890C2 /* SDWebImageSVGKitPlugin */,
 				B537A1FD6BC67DF7FE8C2B34E5CE6F19 /* SVGKit */,
@@ -2243,6 +2355,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6027B88BE434EAB08C1C886EB8FB54FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B47BE31FD5BE290D88005F74117419 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2383,6 +2502,14 @@
 				12D24CF31FC086010E50D97325301F7C /* SVGUtils.m in Sources */,
 				26C25EC5EEC0033B028ACB794FB30F92 /* Text.m in Sources */,
 				AEA566BD82D3708A813B86931990EB45 /* TinySVGTextAreaElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11739C068CFE031BD87447F2A8FFE481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7F6A13B3B288BB1D861EE923CC29FA /* Pods-MyExcitel-MyExcitelTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2552,6 +2679,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		03119F8E89240926C866209B83340283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVGKit;
+			target = B537A1FD6BC67DF7FE8C2B34E5CE6F19 /* SVGKit */;
+			targetProxy = CD24CB23453236233678C8CA485AD30B /* PBXContainerItemProxy */;
+		};
 		05B87DB8FC38ACBD7DE686CEDA5C281F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
@@ -2564,11 +2697,23 @@
 			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
 			targetProxy = 79DC5C5130F7B8F70771D9B986D49F71 /* PBXContainerItemProxy */;
 		};
+		4C64B1C12F6C06272D8049C2669BB0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImageSVGKitPlugin;
+			target = DBCBBA18205552E1609C953411E890C2 /* SDWebImageSVGKitPlugin */;
+			targetProxy = EEFE85759F6679B1B30C303AC00F7E74 /* PBXContainerItemProxy */;
+		};
 		4E192CA6BBF1D9492A312614603AD23D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaLumberjack;
 			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
 			targetProxy = 87FA4823B78E14445677EA97A47DE23D /* PBXContainerItemProxy */;
+		};
+		4E35F4C94E6FCE26A5B13ABCCA6B4633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = CA28E94CE91A1403B6B30FB66C093D02 /* PBXContainerItemProxy */;
 		};
 		519599D6D82A16501E153EFFD52C4E0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2576,11 +2721,23 @@
 			target = B537A1FD6BC67DF7FE8C2B34E5CE6F19 /* SVGKit */;
 			targetProxy = 525A5B1801A642CE18BA491CA6BB4FBB /* PBXContainerItemProxy */;
 		};
+		60CB0343F37A95B934E212603490C149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = D8536FB312B69191CD46BDA339F63854 /* PBXContainerItemProxy */;
+		};
 		6DBDAE24F890F4478A4EB23412A4B124 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
 			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
 			targetProxy = 9A4D4CCBE6A88BBB1936489E57D6C20A /* PBXContainerItemProxy */;
+		};
+		A56A420AF7F368908BAE42BE874AB7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
+			targetProxy = C4E8F4F671AE53426A0F262F7DEECC92 /* PBXContainerItemProxy */;
 		};
 		AA027C354E892B6D2711C198EFC10D61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2618,7 +2775,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2689,7 +2846,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImageSVGKitPlugin/SDWebImageSVGKitPlugin-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImageSVGKitPlugin/SDWebImageSVGKitPlugin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2812,7 +2969,7 @@
 		};
 		47BC4098BF3533DA1517DFC0E4717D24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94FBF37DDBE82AAA32C91274B028E235 /* Pods-MyExcitel.release.xcconfig */;
+			baseConfigurationReference = CE824F4808D8A48C48DDE9BE03379789 /* Pods-MyExcitel.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2925,7 +3082,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SVGKit/SVGKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SVGKit/SVGKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2961,7 +3118,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2995,7 +3152,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SVGKit/SVGKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SVGKit/SVGKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3029,7 +3186,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3050,7 +3207,7 @@
 		};
 		B58D479B46A6C3304882D794375A2BEB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC37ADFF07798BF97636262A5C81B12E /* Pods-MyExcitel.debug.xcconfig */;
+			baseConfigurationReference = 09AC30B80A1E629ABE5DDE46ACB3BA78 /* Pods-MyExcitel.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3085,6 +3242,44 @@
 			};
 			name = Debug;
 		};
+		C6A27F67BFE48762D59DCA46A3C73E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD24A26FBE2058E74B8FE53CC39402F1 /* Pods-MyExcitel-MyExcitelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyExcitel-MyExcitelTests/Pods-MyExcitel-MyExcitelTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyExcitel-MyExcitelTests/Pods-MyExcitel-MyExcitelTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DE9BC6C0DBA9C4817B4D52FF6BDB36A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07D6DDB1DDB5FE886DA79B07EA21A778 /* SDWebImageSVGKitPlugin.debug.xcconfig */;
@@ -3100,7 +3295,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImageSVGKitPlugin/SDWebImageSVGKitPlugin-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImageSVGKitPlugin/SDWebImageSVGKitPlugin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3113,6 +3308,43 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFB774FD5C0F97D9B964A63ACE7EB0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A364A435CD1B102F7BA8A2AB896A359C /* Pods-MyExcitel-MyExcitelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyExcitel-MyExcitelTests/Pods-MyExcitel-MyExcitelTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyExcitel-MyExcitelTests/Pods-MyExcitel-MyExcitelTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3135,7 +3367,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3172,6 +3404,15 @@
 			buildConfigurations = (
 				DE9BC6C0DBA9C4817B4D52FF6BDB36A3 /* Debug */,
 				09E40F441285EB0FEBEE9429A5B05118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EDFF12924727D8B3C6F1743503F0FE /* Build configuration list for PBXNativeTarget "Pods-MyExcitel-MyExcitelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB774FD5C0F97D9B964A63ACE7EB0A8 /* Debug */,
+				C6A27F67BFE48762D59DCA46A3C73E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
