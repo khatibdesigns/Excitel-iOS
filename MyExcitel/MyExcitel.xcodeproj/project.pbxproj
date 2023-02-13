@@ -22,6 +22,14 @@
 		1261CEA12999981D0038B076 /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261CE9F2999981D0038B076 /* CountriesTableViewCell.swift */; };
 		1261CEA22999981D0038B076 /* CountriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1261CEA02999981D0038B076 /* CountriesTableViewCell.xib */; };
 		1261CEA8299999820038B076 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261CEA7299999820038B076 /* UIViewController.swift */; };
+		1299326E299A519000EAAF71 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1299326D299A519000EAAF71 /* Localizable.strings */; };
+		12993271299A51B100EAAF71 /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12993270299A51B100EAAF71 /* String+Localizable.swift */; };
+		12993273299A51C000EAAF71 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12993272299A51C000EAAF71 /* Localization.swift */; };
+		12993276299A51FC00EAAF71 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12993275299A51FC00EAAF71 /* Strings.swift */; };
+		1299327A299A83CA00EAAF71 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12993279299A83CA00EAAF71 /* UITableViewCell.swift */; };
+		1299327D299A840E00EAAF71 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299327C299A840E00EAAF71 /* DetailsViewController.swift */; };
+		1299327F299A841900EAAF71 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299327E299A841900EAAF71 /* DetailsViewModel.swift */; };
+		12993281299A842400EAAF71 /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12993280299A842400EAAF71 /* DetailsCoordinator.swift */; };
 		FA3D663D02BE351CA50EB333 /* Pods_MyExcitel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7026874517AB64F014140255 /* Pods_MyExcitel.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +51,14 @@
 		1261CE9F2999981D0038B076 /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
 		1261CEA02999981D0038B076 /* CountriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesTableViewCell.xib; sourceTree = "<group>"; };
 		1261CEA7299999820038B076 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		1299326D299A519000EAAF71 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		12993270299A51B100EAAF71 /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		12993272299A51C000EAAF71 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		12993275299A51FC00EAAF71 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		12993279299A83CA00EAAF71 /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		1299327C299A840E00EAAF71 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1299327E299A841900EAAF71 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		12993280299A842400EAAF71 /* DetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinator.swift; sourceTree = "<group>"; };
 		7026874517AB64F014140255 /* Pods_MyExcitel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyExcitel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5152E363ACEAA1EDDC3463D /* Pods-MyExcitel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyExcitel.release.xcconfig"; path = "Target Support Files/Pods-MyExcitel/Pods-MyExcitel.release.xcconfig"; sourceTree = "<group>"; };
 		B90DD3AFBC1797CADF889C20 /* Pods-MyExcitel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyExcitel.debug.xcconfig"; path = "Target Support Files/Pods-MyExcitel/Pods-MyExcitel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +112,7 @@
 		124DBC9829954CA0004E2B15 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1299327B299A83F900EAAF71 /* DetailsViewController */,
 				124DBC9F29954D05004E2B15 /* CountriesViewController */,
 			);
 			path = Controllers;
@@ -104,6 +121,7 @@
 		124DBC9929954CB3004E2B15 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1299326F299A51A800EAAF71 /* System */,
 				1261CEA6299999760038B076 /* UI */,
 				1255978F2997FA8B00B86A1F /* Global */,
 			);
@@ -150,6 +168,7 @@
 				124DBC8D29954C42004E2B15 /* Assets.xcassets */,
 				124DBC9229954C42004E2B15 /* Info.plist */,
 				124DBC8A29954C41004E2B15 /* MyExcitel.xcdatamodeld */,
+				1299326D299A519000EAAF71 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -176,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				125597902997FA9600B86A1F /* Storyboarded.swift */,
+				12993275299A51FC00EAAF71 /* Strings.swift */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -201,8 +221,28 @@
 			isa = PBXGroup;
 			children = (
 				1261CEA7299999820038B076 /* UIViewController.swift */,
+				12993279299A83CA00EAAF71 /* UITableViewCell.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		1299326F299A51A800EAAF71 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				12993270299A51B100EAAF71 /* String+Localizable.swift */,
+				12993272299A51C000EAAF71 /* Localization.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		1299327B299A83F900EAAF71 /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1299327C299A840E00EAAF71 /* DetailsViewController.swift */,
+				1299327E299A841900EAAF71 /* DetailsViewModel.swift */,
+				12993280299A842400EAAF71 /* DetailsCoordinator.swift */,
+			);
+			path = DetailsViewController;
 			sourceTree = "<group>";
 		};
 		CF5A4FAAAB2B368108B985F8 /* Pods */ = {
@@ -282,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1299326E299A519000EAAF71 /* Localizable.strings in Resources */,
 				124DBC9129954C42004E2B15 /* LaunchScreen.storyboard in Resources */,
 				124DBC8E29954C42004E2B15 /* Assets.xcassets in Resources */,
 				1261CEA22999981D0038B076 /* CountriesTableViewCell.xib in Resources */,
@@ -339,16 +380,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				125597892997F90100B86A1F /* CountriesCoordinator.swift in Sources */,
+				1299327A299A83CA00EAAF71 /* UITableViewCell.swift in Sources */,
 				1255978E2997F99200B86A1F /* MainCoordinator.swift in Sources */,
 				125597852997F14A00B86A1F /* ConnectionManager.swift in Sources */,
 				1261CEA8299999820038B076 /* UIViewController.swift in Sources */,
 				1255978B2997F92500B86A1F /* CountriesViewModel.swift in Sources */,
+				12993273299A51C000EAAF71 /* Localization.swift in Sources */,
+				12993276299A51FC00EAAF71 /* Strings.swift in Sources */,
+				12993281299A842400EAAF71 /* DetailsCoordinator.swift in Sources */,
+				1299327D299A840E00EAAF71 /* DetailsViewController.swift in Sources */,
 				1261CEA12999981D0038B076 /* CountriesTableViewCell.swift in Sources */,
 				124DBC8229954C41004E2B15 /* AppDelegate.swift in Sources */,
 				125597912997FA9600B86A1F /* Storyboarded.swift in Sources */,
 				125597832997F07000B86A1F /* Countries.swift in Sources */,
 				125597872997F8DE00B86A1F /* CountriesViewController.swift in Sources */,
 				124DBC8C29954C41004E2B15 /* MyExcitel.xcdatamodeld in Sources */,
+				12993271299A51B100EAAF71 /* String+Localizable.swift in Sources */,
+				1299327F299A841900EAAF71 /* DetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,19 +18,18 @@ extension Coordinator {
 }
 
 class MainCoordinator: Coordinator {
-    
-    var window: UIWindow
+    private var navigationController: UINavigationController
     var coordinators = [String:Coordinator]()
 
-    init(window: UIWindow) {
-        self.window = window
+    init(navigationController: UINavigationController) {
+        self.navigationController = navigationController
     }
 
     func start() {
         showCountriesViewController()
     }
     func showCountriesViewController() {
-        let countriesCoordinator = CountriesCoordinator(window: window)
+        let countriesCoordinator = CountriesCoordinator(navigationController: navigationController)
         countriesCoordinator.start()
     }
 }

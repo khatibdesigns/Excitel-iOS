@@ -31,7 +31,7 @@ class CountriesTableViewCell: UITableViewCell {
                 let scaledImage = resizeImage(image: image ?? UIImage(named: "Icon_placeholder")!, targetSize: self.iconImageView.frame.size)
                 self.iconImageView.image = scaledImage
             }
-            self.dataLabel.text! = "\(data.capitalName ?? "")"
+            self.dataLabel.text! = "\(data.name ?? "")"
         }
     }
 }

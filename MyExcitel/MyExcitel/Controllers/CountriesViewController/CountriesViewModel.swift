@@ -26,7 +26,10 @@ final class CountriesViewModel {
         isRefreshing?(true)
         
         ConnectionManager().read(data: countries, endpoint: "countries") { data in
-            self.finish(with: data)
+            let sorted = data.sorted { (a, b) -> Bool in
+                return a.population ?? 0 > b.population ?? 0
+            }
+            self.finish(with: sorted)
         } failure: { error in
             self.failed(with: error)
         }
@@ -44,5 +47,6 @@ final class CountriesViewModel {
     func didSelect(at indexPath: IndexPath) {
         if countries.isEmpty { return }
         didSelect?(countries[indexPath.item])
+        coordinator?.showDetails(countries[indexPath.item])
     }
 }

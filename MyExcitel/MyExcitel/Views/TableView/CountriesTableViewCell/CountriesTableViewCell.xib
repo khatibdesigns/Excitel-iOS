@@ -23,21 +23,19 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2K8-jt-1Zg">
-                        <rect key="frame" x="47.999999999999986" y="11.666666666666664" width="237.66666666666663" height="21"/>
+                        <rect key="frame" x="48" y="11.666666666666657" width="237.66666666666663" height="21.000000000000007"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="bWN-Zk-SrB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="37A-JC-xx3"/>
                     <constraint firstItem="bWN-Zk-SrB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Kby-3k-QJV"/>
                     <constraint firstItem="2K8-jt-1Zg" firstAttribute="height" secondItem="bWN-Zk-SrB" secondAttribute="height" multiplier="0.75" id="L2b-OS-Soc"/>
                     <constraint firstItem="bWN-Zk-SrB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="RhM-r5-YTb"/>
                     <constraint firstAttribute="trailing" secondItem="2K8-jt-1Zg" secondAttribute="trailing" constant="8" id="fEN-tZ-exp"/>
                     <constraint firstItem="2K8-jt-1Zg" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="fs0-Dx-4Ml"/>
                     <constraint firstItem="2K8-jt-1Zg" firstAttribute="leading" secondItem="bWN-Zk-SrB" secondAttribute="trailing" constant="12" id="gKC-42-03x"/>
-                    <constraint firstAttribute="bottom" secondItem="bWN-Zk-SrB" secondAttribute="bottom" constant="8" id="qjC-bG-FnV"/>
                     <constraint firstItem="bWN-Zk-SrB" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.636364" id="sh8-Pc-f1Z"/>
                 </constraints>
             </tableViewCellContentView>

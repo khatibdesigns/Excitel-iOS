@@ -73,8 +73,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     private func setupMainView() {
-        coordinator = MainCoordinator(window: window!)
+        let navigationController = UINavigationController()
+        coordinator = MainCoordinator(navigationController: navigationController)
         coordinator?.start()
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
 }

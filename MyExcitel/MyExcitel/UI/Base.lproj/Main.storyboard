@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vow-eg-2oo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -17,15 +17,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0dp-Ln-DCW">
-                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0dp-Ln-DCW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4bW-fO-hk1"/>
                             <constraint firstItem="0dp-Ln-DCW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8yR-MJ-dT1"/>
+                            <constraint firstItem="0dp-Ln-DCW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Oec-LG-g3G"/>
                             <constraint firstAttribute="bottom" secondItem="0dp-Ln-DCW" secondAttribute="bottom" id="Ssy-Ww-UaV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0dp-Ln-DCW" secondAttribute="trailing" id="ru2-GW-oPE"/>
                         </constraints>
@@ -39,23 +39,20 @@
             </objects>
             <point key="canvasLocation" x="856" y="4"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Fpq-on-O9j">
+        <!--Details View Controller-->
+        <scene sceneID="n4h-Oh-4ne">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vow-eg-2oo" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XR8-go-IJI">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZAR-mj-xuu"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="k1H-rZ-UUs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="DetailsViewController" id="0En-lO-Qa8" customClass="DetailsViewController" customModule="MyExcitel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xaG-OK-OJc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="RYe-XE-8U9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eGj-x2-bCb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.64122137404578" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1590" y="4"/>
         </scene>
     </scenes>
     <resources>

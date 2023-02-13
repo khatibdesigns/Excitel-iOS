@@ -14,6 +14,10 @@ class CountriesViewController: UIViewController, Storyboarded {
     // MARK: Variables
     var viewModel: CountriesViewModel!
     private var data: [Countries]?
+    private var filteredData: [Countries] = [Countries]()
+    var isSearch : Bool = false
+    
+    let searchBar = UISearchBar()
     
     // MARK: Outlets
     @IBOutlet weak var itemsTableView: UITableView!
@@ -22,6 +26,7 @@ class CountriesViewController: UIViewController, Storyboarded {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.setupTableView()
+        self.setupSearchBar()
         self.setupViewModel()
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -33,6 +38,15 @@ class CountriesViewController: UIViewController, Storyboarded {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         SDImageCache.shared.clearMemory()
+    }
+    
+    private func setupSearchBar() {
+        searchBar.searchBarStyle = .default
+        searchBar.placeholder = "\(Strings.TextFields.search)"
+        searchBar.sizeToFit()
+        searchBar.delegate = self
+        
+        navigationItem.titleView = searchBar
     }
     
     private func setupViewModel() {
@@ -59,15 +73,23 @@ extension CountriesViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         guard let data = data else { return 0 }
         
+        if isSearch {
+            return self.filteredData.count
+        }
+        
         return data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let data = data else { return UITableViewCell() }
         let cell = tableView.dequeueReusableCell(withIdentifier: self.viewModel.cell_id, for: indexPath) as! CountriesTableViewCell
         
         DispatchQueue.global().async {
-            cell.configureCell(data: data[indexPath.row])
+            if self.isSearch {
+                cell.configureCell(data: self.filteredData[indexPath.row])
+            }else {
+                guard let data = self.data else { return }
+                cell.configureCell(data: data[indexPath.row])
+            }
         }
         
         return cell
@@ -80,21 +102,47 @@ extension CountriesViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.viewModel.didSelect(at: indexPath)
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 44
     }
 }
-func resizeImage(image: UIImage, targetSize: CGSize) -> UIImage {
-    let scale = min(targetSize.width / image.size.width,
-                    targetSize.height / image.size.height)
+extension CountriesViewController: UISearchBarDelegate {
+    //MARK: UISearchbar delegate
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        isSearch = true
+    }
     
-    let size = CGSize(width: image.size.width * scale,
-                      height: image.size.height * scale)
+    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+        isSearch = false
+    }
     
-    UIGraphicsBeginImageContextWithOptions(size, false, 0)
-    image.draw(in: CGRect(origin: .zero, size: size))
-    let scaledImage = UIGraphicsGetImageFromCurrentImageContext()
-    UIGraphicsEndImageContext()
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+        isSearch = false
+    }
     
-    return scaledImage!
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+        isSearch = false
+    }
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if searchText.count == 0 {
+            isSearch = false
+            self.itemsTableView.reloadData()
+        } else if searchText.count >= 3 {
+            guard let data = data else { return }
+            self.filteredData = data.filter({("\($0.name ?? "")".lowercased().contains(searchText.lowercased()))})
+            if(self.filteredData.count == 0) {
+                isSearch = false
+            } else {
+                isSearch = true
+            }
+            self.itemsTableView.reloadData()
+        }
+    }
 }

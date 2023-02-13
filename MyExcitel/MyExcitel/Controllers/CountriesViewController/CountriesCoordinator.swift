@@ -10,17 +10,23 @@ import UIKit
 
 final class CountriesCoordinator: Coordinator {
     
-   private var window: UIWindow
+   private var navigationController: UINavigationController
     
-    init(window: UIWindow) {
-        self.window = window
+    init(navigationController: UINavigationController) {
+        self.navigationController = navigationController
     }
     
     func start() {
-        let viewController = CountriesViewController.instantiate(storyboard: "Main")
         let viewModel = CountriesViewModel()
-        viewModel.coordinator = self
+        let viewController = CountriesViewController.instantiate(storyboard: "Main")
+        
         viewController.viewModel = viewModel
-        window.rootViewController = viewController
+        viewModel.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    func showDetails(_ country: Countries) {
+        let coordinator = DetailsCoordinator(navigationController: navigationController, country: country)
+        coordinator.start()
     }
 }
