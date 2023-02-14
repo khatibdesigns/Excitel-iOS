@@ -2,16 +2,21 @@
 
 # **Prerequisite**
 
-## 1. ***Installed cocoapods*** [dependency manager for Swift](https://guides.cocoapods.org/using/getting-started.html)
+## 1. ***Install cocoapods*** [dependency manager for Swift](https://guides.cocoapods.org/using/getting-started.html)
 
 ***In terminal navigate to root folder run:***
 
     $ sudo gem install cocoapods
     
-## 2. *** Open the Project*** 
+## 2. ***Install Pods in the project***
 
-After pods have been instlled, open the MyExcitel.xcworkspace file
+***In terminal navigate to the project folder & run:***
 
+    $ pod install
+    
+## 3. ***Open the Project*** 
+
+After pods have been installed, open the MyExcitel.xcworkspace file
 
 
 ### Task: ###  
