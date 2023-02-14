@@ -4,9 +4,14 @@
 target 'MyExcitel' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  
   # Pods for MyExcitel
-
-pod 'Alamofire'
-
+  
+  pod 'Alamofire'
+  pod 'SDWebImageSVGKitPlugin'
+  pod 'SDWebImage', '~> 5.0'
+  target 'MyExcitelTests' do
+    # Pods for MyExcitelTests
+    pod 'Alamofire'
+  end
 end

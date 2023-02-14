@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  MyExcitel
+
+  Created by Nader Alkatib on 13.02.23.
+  
+*/
+
+"SEARCH" = "Search";
+"COUNTRY_NAME" = "Name";
+"REGION" = "Region";
+"POPULATION" = "Population";
+"CAPITAL" = "Capital";
+"FLAG" = "Flag";

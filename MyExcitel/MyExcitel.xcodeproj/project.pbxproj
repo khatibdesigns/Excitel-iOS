@@ -7,30 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123A704A299AE6D7004532D4 /* MyExcitelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123A7049299AE6D7004532D4 /* MyExcitelTests.swift */; };
+		123A7059299AEA48004532D4 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125597842997F14A00B86A1F /* ConnectionManager.swift */; };
+		123A705A299AEAB1004532D4 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125597822997F07000B86A1F /* Countries.swift */; };
 		124DBC8229954C41004E2B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124DBC8129954C41004E2B15 /* AppDelegate.swift */; };
-		124DBC8629954C41004E2B15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124DBC8529954C41004E2B15 /* ViewController.swift */; };
 		124DBC8929954C41004E2B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124DBC8729954C41004E2B15 /* Main.storyboard */; };
 		124DBC8C29954C41004E2B15 /* MyExcitel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 124DBC8A29954C41004E2B15 /* MyExcitel.xcdatamodeld */; };
 		124DBC8E29954C42004E2B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124DBC8D29954C42004E2B15 /* Assets.xcassets */; };
 		124DBC9129954C42004E2B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124DBC8F29954C42004E2B15 /* LaunchScreen.storyboard */; };
+		125597832997F07000B86A1F /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125597822997F07000B86A1F /* Countries.swift */; };
+		125597852997F14A00B86A1F /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125597842997F14A00B86A1F /* ConnectionManager.swift */; };
+		125597872997F8DE00B86A1F /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125597862997F8DE00B86A1F /* CountriesViewController.swift */; };
+		125597892997F90100B86A1F /* CountriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125597882997F90100B86A1F /* CountriesCoordinator.swift */; };
+		1255978B2997F92500B86A1F /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255978A2997F92500B86A1F /* CountriesViewModel.swift */; };
+		1255978E2997F99200B86A1F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255978D2997F99200B86A1F /* MainCoordinator.swift */; };
+		125597912997FA9600B86A1F /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125597902997FA9600B86A1F /* Storyboarded.swift */; };
+		1261CEA12999981D0038B076 /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261CE9F2999981D0038B076 /* CountriesTableViewCell.swift */; };
+		1261CEA22999981D0038B076 /* CountriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1261CEA02999981D0038B076 /* CountriesTableViewCell.xib */; };
+		1261CEA8299999820038B076 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261CEA7299999820038B076 /* UIViewController.swift */; };
+		12907A20299AAE0A00CEEC99 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12907A1F299AAE0A00CEEC99 /* UIView.swift */; };
+		12907A26299AAEC200CEEC99 /* CountryDetailsLandscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12907A25299AAEC200CEEC99 /* CountryDetailsLandscape.swift */; };
+		12907A28299AAEC900CEEC99 /* CountryDetailsLandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12907A27299AAEC900CEEC99 /* CountryDetailsLandscape.xib */; };
+		12907A2A299AAEDF00CEEC99 /* CountryDetailsPortrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12907A29299AAEDF00CEEC99 /* CountryDetailsPortrait.swift */; };
+		12907A2C299AAEE900CEEC99 /* CountryDetailsPortrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12907A2B299AAEE900CEEC99 /* CountryDetailsPortrait.xib */; };
+		1299326E299A519000EAAF71 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1299326D299A519000EAAF71 /* Localizable.strings */; };
+		12993271299A51B100EAAF71 /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12993270299A51B100EAAF71 /* String+Localizable.swift */; };
+		12993273299A51C000EAAF71 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12993272299A51C000EAAF71 /* Localization.swift */; };
+		12993276299A51FC00EAAF71 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12993275299A51FC00EAAF71 /* Strings.swift */; };
+		1299327A299A83CA00EAAF71 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12993279299A83CA00EAAF71 /* UITableViewCell.swift */; };
+		1299327D299A840E00EAAF71 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299327C299A840E00EAAF71 /* DetailsViewController.swift */; };
+		1299327F299A841900EAAF71 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299327E299A841900EAAF71 /* DetailsViewModel.swift */; };
+		12993281299A842400EAAF71 /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12993280299A842400EAAF71 /* DetailsCoordinator.swift */; };
+		43D4D8CF32B5186D5A51CF0D /* Pods_MyExcitel_MyExcitelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E1CF224A8106DAF45C1E49 /* Pods_MyExcitel_MyExcitelTests.framework */; };
 		FA3D663D02BE351CA50EB333 /* Pods_MyExcitel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7026874517AB64F014140255 /* Pods_MyExcitel.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		123A704B299AE6D7004532D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 124DBC7629954C41004E2B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 124DBC7D29954C41004E2B15;
+			remoteInfo = MyExcitel;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		123A7047299AE6D7004532D4 /* MyExcitelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyExcitelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		123A7049299AE6D7004532D4 /* MyExcitelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExcitelTests.swift; sourceTree = "<group>"; };
+		123A7050299AE8CF004532D4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		123A7057299AE97E004532D4 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		124DBC7E29954C41004E2B15 /* MyExcitel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyExcitel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		124DBC8129954C41004E2B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		124DBC8529954C41004E2B15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		124DBC8829954C41004E2B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		124DBC8B29954C41004E2B15 /* MyExcitel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyExcitel.xcdatamodel; sourceTree = "<group>"; };
 		124DBC8D29954C42004E2B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		124DBC9029954C42004E2B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		124DBC9229954C42004E2B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		125597822997F07000B86A1F /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		125597842997F14A00B86A1F /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		125597862997F8DE00B86A1F /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		125597882997F90100B86A1F /* CountriesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesCoordinator.swift; sourceTree = "<group>"; };
+		1255978A2997F92500B86A1F /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
+		1255978D2997F99200B86A1F /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		125597902997FA9600B86A1F /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		1261CE9F2999981D0038B076 /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
+		1261CEA02999981D0038B076 /* CountriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesTableViewCell.xib; sourceTree = "<group>"; };
+		1261CEA7299999820038B076 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		12907A1F299AAE0A00CEEC99 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		12907A25299AAEC200CEEC99 /* CountryDetailsLandscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsLandscape.swift; sourceTree = "<group>"; };
+		12907A27299AAEC900CEEC99 /* CountryDetailsLandscape.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryDetailsLandscape.xib; sourceTree = "<group>"; };
+		12907A29299AAEDF00CEEC99 /* CountryDetailsPortrait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsPortrait.swift; sourceTree = "<group>"; };
+		12907A2B299AAEE900CEEC99 /* CountryDetailsPortrait.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryDetailsPortrait.xib; sourceTree = "<group>"; };
+		1299326D299A519000EAAF71 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		12993270299A51B100EAAF71 /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		12993272299A51C000EAAF71 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		12993275299A51FC00EAAF71 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		12993279299A83CA00EAAF71 /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		1299327C299A840E00EAAF71 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1299327E299A841900EAAF71 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		12993280299A842400EAAF71 /* DetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinator.swift; sourceTree = "<group>"; };
 		7026874517AB64F014140255 /* Pods_MyExcitel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyExcitel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E1CF224A8106DAF45C1E49 /* Pods_MyExcitel_MyExcitelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyExcitel_MyExcitelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5152E363ACEAA1EDDC3463D /* Pods-MyExcitel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyExcitel.release.xcconfig"; path = "Target Support Files/Pods-MyExcitel/Pods-MyExcitel.release.xcconfig"; sourceTree = "<group>"; };
 		B90DD3AFBC1797CADF889C20 /* Pods-MyExcitel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyExcitel.debug.xcconfig"; path = "Target Support Files/Pods-MyExcitel/Pods-MyExcitel.debug.xcconfig"; sourceTree = "<group>"; };
+		DD513C0BBEED15BCA2CB74E9 /* Pods-MyExcitel-MyExcitelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyExcitel-MyExcitelTests.debug.xcconfig"; path = "Target Support Files/Pods-MyExcitel-MyExcitelTests/Pods-MyExcitel-MyExcitelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F418C647FFD47A5D877CDFE7 /* Pods-MyExcitel-MyExcitelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyExcitel-MyExcitelTests.release.xcconfig"; path = "Target Support Files/Pods-MyExcitel-MyExcitelTests/Pods-MyExcitel-MyExcitelTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		123A7044299AE6D7004532D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D4D8CF32B5186D5A51CF0D /* Pods_MyExcitel_MyExcitelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		124DBC7B29954C41004E2B15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,10 +115,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123A7048299AE6D7004532D4 /* MyExcitelTests */ = {
+			isa = PBXGroup;
+			children = (
+				123A7049299AE6D7004532D4 /* MyExcitelTests.swift */,
+			);
+			path = MyExcitelTests;
+			sourceTree = "<group>";
+		};
 		124DBC7529954C41004E2B15 = {
 			isa = PBXGroup;
 			children = (
 				124DBC8029954C41004E2B15 /* MyExcitel */,
+				123A7048299AE6D7004532D4 /* MyExcitelTests */,
 				124DBC7F29954C41004E2B15 /* Products */,
 				CF5A4FAAAB2B368108B985F8 /* Pods */,
 				F307FAEABE3FF482DC3252D7 /* Frameworks */,
@@ -56,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				124DBC7E29954C41004E2B15 /* MyExcitel.app */,
+				123A7047299AE6D7004532D4 /* MyExcitelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +146,7 @@
 		124DBC8029954C41004E2B15 /* MyExcitel */ = {
 			isa = PBXGroup;
 			children = (
+				1255978C2997F98200B86A1F /* Navigation */,
 				124DBC9E29954CE3004E2B15 /* Resources */,
 				124DBC9D29954CDE004E2B15 /* Views */,
 				124DBC9C29954CD9004E2B15 /* UI */,
@@ -77,7 +161,8 @@
 		124DBC9829954CA0004E2B15 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				124DBC9F29954D05004E2B15 /* Main */,
+				1299327B299A83F900EAAF71 /* DetailsViewController */,
+				124DBC9F29954D05004E2B15 /* CountriesViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -85,6 +170,9 @@
 		124DBC9929954CB3004E2B15 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1299326F299A51A800EAAF71 /* System */,
+				1261CEA6299999760038B076 /* UI */,
+				1255978F2997FA8B00B86A1F /* Global */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -92,6 +180,7 @@
 		124DBC9A29954CC5004E2B15 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				125597822997F07000B86A1F /* Countries.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -99,6 +188,7 @@
 		124DBC9B29954CD4004E2B15 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				125597842997F14A00B86A1F /* ConnectionManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -115,6 +205,8 @@
 		124DBC9D29954CDE004E2B15 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				12907A21299AAE5A00CEEC99 /* UIView */,
+				1261CE9D299998070038B076 /* TableView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -126,16 +218,117 @@
 				124DBC8D29954C42004E2B15 /* Assets.xcassets */,
 				124DBC9229954C42004E2B15 /* Info.plist */,
 				124DBC8A29954C41004E2B15 /* MyExcitel.xcdatamodeld */,
+				1299326D299A519000EAAF71 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		124DBC9F29954D05004E2B15 /* Main */ = {
+		124DBC9F29954D05004E2B15 /* CountriesViewController */ = {
 			isa = PBXGroup;
 			children = (
-				124DBC8529954C41004E2B15 /* ViewController.swift */,
+				125597862997F8DE00B86A1F /* CountriesViewController.swift */,
+				125597882997F90100B86A1F /* CountriesCoordinator.swift */,
+				1255978A2997F92500B86A1F /* CountriesViewModel.swift */,
 			);
-			path = Main;
+			path = CountriesViewController;
+			sourceTree = "<group>";
+		};
+		1255978C2997F98200B86A1F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1255978D2997F99200B86A1F /* MainCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		1255978F2997FA8B00B86A1F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				125597902997FA9600B86A1F /* Storyboarded.swift */,
+				12993275299A51FC00EAAF71 /* Strings.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		1261CE9D299998070038B076 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1261CE9E299998120038B076 /* CountriesTableViewCell */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		1261CE9E299998120038B076 /* CountriesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1261CE9F2999981D0038B076 /* CountriesTableViewCell.swift */,
+				1261CEA02999981D0038B076 /* CountriesTableViewCell.xib */,
+			);
+			path = CountriesTableViewCell;
+			sourceTree = "<group>";
+		};
+		1261CEA6299999760038B076 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1261CEA7299999820038B076 /* UIViewController.swift */,
+				12993279299A83CA00EAAF71 /* UITableViewCell.swift */,
+				12907A1F299AAE0A00CEEC99 /* UIView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		12907A21299AAE5A00CEEC99 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				12907A22299AAE6800CEEC99 /* CountryDetails */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		12907A22299AAE6800CEEC99 /* CountryDetails */ = {
+			isa = PBXGroup;
+			children = (
+				12907A24299AAE7800CEEC99 /* Landscape */,
+				12907A23299AAE7000CEEC99 /* Portrait */,
+			);
+			path = CountryDetails;
+			sourceTree = "<group>";
+		};
+		12907A23299AAE7000CEEC99 /* Portrait */ = {
+			isa = PBXGroup;
+			children = (
+				12907A29299AAEDF00CEEC99 /* CountryDetailsPortrait.swift */,
+				12907A2B299AAEE900CEEC99 /* CountryDetailsPortrait.xib */,
+			);
+			path = Portrait;
+			sourceTree = "<group>";
+		};
+		12907A24299AAE7800CEEC99 /* Landscape */ = {
+			isa = PBXGroup;
+			children = (
+				12907A25299AAEC200CEEC99 /* CountryDetailsLandscape.swift */,
+				12907A27299AAEC900CEEC99 /* CountryDetailsLandscape.xib */,
+			);
+			path = Landscape;
+			sourceTree = "<group>";
+		};
+		1299326F299A51A800EAAF71 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				12993270299A51B100EAAF71 /* String+Localizable.swift */,
+				12993272299A51C000EAAF71 /* Localization.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		1299327B299A83F900EAAF71 /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1299327C299A840E00EAAF71 /* DetailsViewController.swift */,
+				1299327E299A841900EAAF71 /* DetailsViewModel.swift */,
+				12993280299A842400EAAF71 /* DetailsCoordinator.swift */,
+			);
+			path = DetailsViewController;
 			sourceTree = "<group>";
 		};
 		CF5A4FAAAB2B368108B985F8 /* Pods */ = {
@@ -143,15 +336,19 @@
 			children = (
 				B90DD3AFBC1797CADF889C20 /* Pods-MyExcitel.debug.xcconfig */,
 				B5152E363ACEAA1EDDC3463D /* Pods-MyExcitel.release.xcconfig */,
+				DD513C0BBEED15BCA2CB74E9 /* Pods-MyExcitel-MyExcitelTests.debug.xcconfig */,
+				F418C647FFD47A5D877CDFE7 /* Pods-MyExcitel-MyExcitelTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		F307FAEABE3FF482DC3252D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				123A7057299AE97E004532D4 /* Alamofire.framework */,
+				123A7050299AE8CF004532D4 /* XCTest.framework */,
 				7026874517AB64F014140255 /* Pods_MyExcitel.framework */,
+				A2E1CF224A8106DAF45C1E49 /* Pods_MyExcitel_MyExcitelTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,6 +356,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		123A7046299AE6D7004532D4 /* MyExcitelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123A704F299AE6D7004532D4 /* Build configuration list for PBXNativeTarget "MyExcitelTests" */;
+			buildPhases = (
+				FB63460BC7902F9F2A447F77 /* [CP] Check Pods Manifest.lock */,
+				123A7043299AE6D7004532D4 /* Sources */,
+				123A7044299AE6D7004532D4 /* Frameworks */,
+				123A7045299AE6D7004532D4 /* Resources */,
+				5C9542A4E160DAE6908BD346 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				123A704C299AE6D7004532D4 /* PBXTargetDependency */,
+			);
+			name = MyExcitelTests;
+			productName = MyExcitelTests;
+			productReference = 123A7047299AE6D7004532D4 /* MyExcitelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		124DBC7D29954C41004E2B15 /* MyExcitel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 124DBC9529954C42004E2B15 /* Build configuration list for PBXNativeTarget "MyExcitel" */;
@@ -188,6 +405,10 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					123A7046299AE6D7004532D4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 124DBC7D29954C41004E2B15;
+					};
 					124DBC7D29954C41004E2B15 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -207,18 +428,30 @@
 			projectRoot = "";
 			targets = (
 				124DBC7D29954C41004E2B15 /* MyExcitel */,
+				123A7046299AE6D7004532D4 /* MyExcitelTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		123A7045299AE6D7004532D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		124DBC7C29954C41004E2B15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1299326E299A519000EAAF71 /* Localizable.strings in Resources */,
 				124DBC9129954C42004E2B15 /* LaunchScreen.storyboard in Resources */,
 				124DBC8E29954C42004E2B15 /* Assets.xcassets in Resources */,
+				12907A2C299AAEE900CEEC99 /* CountryDetailsPortrait.xib in Resources */,
+				1261CEA22999981D0038B076 /* CountriesTableViewCell.xib in Resources */,
 				124DBC8929954C41004E2B15 /* Main.storyboard in Resources */,
+				12907A28299AAEC900CEEC99 /* CountryDetailsLandscape.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +473,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyExcitel/Pods-MyExcitel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C9542A4E160DAE6908BD346 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyExcitel-MyExcitelTests/Pods-MyExcitel-MyExcitelTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyExcitel-MyExcitelTests/Pods-MyExcitel-MyExcitelTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyExcitel-MyExcitelTests/Pods-MyExcitel-MyExcitelTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		74E8E38BB18F10DCC621B5C8 /* [CP] Check Pods Manifest.lock */ = {
@@ -264,20 +514,78 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FB63460BC7902F9F2A447F77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyExcitel-MyExcitelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		123A7043299AE6D7004532D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123A704A299AE6D7004532D4 /* MyExcitelTests.swift in Sources */,
+				123A705A299AEAB1004532D4 /* Countries.swift in Sources */,
+				123A7059299AEA48004532D4 /* ConnectionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		124DBC7A29954C41004E2B15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				124DBC8629954C41004E2B15 /* ViewController.swift in Sources */,
+				125597892997F90100B86A1F /* CountriesCoordinator.swift in Sources */,
+				12907A26299AAEC200CEEC99 /* CountryDetailsLandscape.swift in Sources */,
+				1299327A299A83CA00EAAF71 /* UITableViewCell.swift in Sources */,
+				1255978E2997F99200B86A1F /* MainCoordinator.swift in Sources */,
+				125597852997F14A00B86A1F /* ConnectionManager.swift in Sources */,
+				1261CEA8299999820038B076 /* UIViewController.swift in Sources */,
+				1255978B2997F92500B86A1F /* CountriesViewModel.swift in Sources */,
+				12993273299A51C000EAAF71 /* Localization.swift in Sources */,
+				12993276299A51FC00EAAF71 /* Strings.swift in Sources */,
+				12993281299A842400EAAF71 /* DetailsCoordinator.swift in Sources */,
+				1299327D299A840E00EAAF71 /* DetailsViewController.swift in Sources */,
+				1261CEA12999981D0038B076 /* CountriesTableViewCell.swift in Sources */,
 				124DBC8229954C41004E2B15 /* AppDelegate.swift in Sources */,
+				125597912997FA9600B86A1F /* Storyboarded.swift in Sources */,
+				12907A20299AAE0A00CEEC99 /* UIView.swift in Sources */,
+				125597832997F07000B86A1F /* Countries.swift in Sources */,
+				125597872997F8DE00B86A1F /* CountriesViewController.swift in Sources */,
 				124DBC8C29954C41004E2B15 /* MyExcitel.xcdatamodeld in Sources */,
+				12993271299A51B100EAAF71 /* String+Localizable.swift in Sources */,
+				1299327F299A841900EAAF71 /* DetailsViewModel.swift in Sources */,
+				12907A2A299AAEDF00CEEC99 /* CountryDetailsPortrait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		123A704C299AE6D7004532D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 124DBC7D29954C41004E2B15 /* MyExcitel */;
+			targetProxy = 123A704B299AE6D7004532D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		124DBC8729954C41004E2B15 /* Main.storyboard */ = {
@@ -299,6 +607,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		123A704D299AE6D7004532D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD513C0BBEED15BCA2CB74E9 /* Pods-MyExcitel-MyExcitelTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49UBS76LB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khd.MyExcitelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyExcitel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyExcitel";
+			};
+			name = Debug;
+		};
+		123A704E299AE6D7004532D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F418C647FFD47A5D877CDFE7 /* Pods-MyExcitel-MyExcitelTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49UBS76LB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khd.MyExcitelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyExcitel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyExcitel";
+			};
+			name = Release;
+		};
 		124DBC9329954C42004E2B15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -421,6 +775,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49UBS76LB7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyExcitel/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -452,6 +807,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49UBS76LB7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyExcitel/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,6 +834,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		123A704F299AE6D7004532D4 /* Build configuration list for PBXNativeTarget "MyExcitelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123A704D299AE6D7004532D4 /* Debug */,
+				123A704E299AE6D7004532D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		124DBC7929954C41004E2B15 /* Build configuration list for PBXProject "MyExcitel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
