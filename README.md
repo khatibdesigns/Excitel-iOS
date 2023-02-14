@@ -1,5 +1,20 @@
 # README #
 
+# **Prerequisite**
+
+## 1. ***Installed cocoapods*** [dependency manager for Swift](https://guides.cocoapods.org/using/getting-started.html)
+
+***In terminal navigate to root folder run:***
+
+    $ sudo gem install cocoapods
+    
+## 2. *** Open the Project*** 
+
+After pods have been instlled, open the MyExcitel.xcworkspace file
+
+
+
+### Task: ###  
 ### Create an iOS native application by using the following API. ### 
 
 GET
